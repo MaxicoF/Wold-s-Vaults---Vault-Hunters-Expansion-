@@ -1,0 +1,12 @@
+{
+  "name": "Достичь (префикс)",
+  "icon": "create:brass_hand",
+  "category": "patchouli:magnet_implicits",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:magnet",
+      "text": "Дальность действия увеличивает расстояние, с которого ваше оружие может поражать врагов."
+    }
+  ]
+}

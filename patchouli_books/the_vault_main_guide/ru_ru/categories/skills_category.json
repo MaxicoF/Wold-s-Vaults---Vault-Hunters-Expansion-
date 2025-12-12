@@ -1,0 +1,6 @@
+{
+    "sortnum": 4,
+    "name": "Skills",
+    "description": "Навыки являются $(l)неотъемлемой$() частью Vault Hunters. Они позволяют игроку использоватьn $(l)способности$() или $(l)взаимодействовать$() с $(l)advanced machinery$().",
+    "icon": "the_vault:scavenger_wizard_wand"
+}
