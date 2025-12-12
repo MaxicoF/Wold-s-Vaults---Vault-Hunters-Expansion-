@@ -1,0 +1,98 @@
+{
+  "language.code": "ru_ru",
+
+  "item.the_vault.trident": "Трезубец Хранилища",
+  "item.the_vault.battlestaff": "Боевой посох Хранилища",
+
+  "curios.identifier.wireless_terminal": "Беспроводной терминал",
+
+  "item.sophisticatedbackpacks.anvil_upgrade": "Улучшение: Наковальня",
+  "item.sophisticatedbackpacks.anvil_upgrade.tooltip": "Наковальня на вкладке улучшений",
+  "gui.sophisticatedbackpacks.upgrades.anvil": "Улучшение: Наковальня",
+
+  "item.the_vault.gem_iskallium": "Самоцвет Вольдиума",
+  "item.the_vault.cluster_iskallium": "Кластер Вольдиума",
+  "item.the_vault.chunk_iskallium": "Фрагмент Вольдиума",
+  "item.the_vault.key_iskallium": "Ключ Вольдиума",
+
+  "block.the_vault.treasure_door_iskallium": "Сокровищная дверь Вольдиума",
+  "block.the_vault.ore_iskallium": "Руда Вольдиума",
+  "block.the_vault.ore_iskallium_stone": "Руда Вольдиума — Камень",
+  "block.the_vault.ore_iskallium_white": "Руда Вольдиума — Диорит",
+  "block.the_vault.ore_iskallium_vault_stone": "Руда Вольдиума — Камень Хранилища",
+
+  "item.sophisticatedbackpacks.chipped.botanist_workbench_upgrade": "Улучшение ботанического верстака",
+  "item.sophisticatedbackpacks.chipped.botanist_workbench_upgrade.tooltip": "Ботанический верстак на вкладке улучшений",
+
+  "item.sophisticatedbackpacks.chipped.glassblower_workbench_upgrade": "Улучшение стеклодувного верстака",
+  "item.sophisticatedbackpacks.chipped.glassblower_workbench_upgrade.tooltip": "Стеклодувный верстак на вкладке улучшений",
+
+  "item.sophisticatedbackpacks.chipped.carpenter_workbench_upgrade": "Улучшение плотницкого верстака",
+  "item.sophisticatedbackpacks.chipped.carpenter_workbench_upgrade.tooltip": "Плотницкий верстак на вкладке улучшений",
+
+  "item.sophisticatedbackpacks.chipped.shepherd_workbench_upgrade": "Улучшение пастушьего верстака",
+  "item.sophisticatedbackpacks.chipped.shepherd_workbench_upgrade.tooltip": "Пастуший верстак на вкладке улучшений",
+
+  "item.sophisticatedbackpacks.chipped.mason_workbench_upgrade": "Улучшение каменотёсного верстака",
+  "item.sophisticatedbackpacks.chipped.mason_workbench_upgrade.tooltip": "Каменотёсный верстак на вкладке улучшений",
+
+  "item.sophisticatedbackpacks.chipped.philosopher_workbench_upgrade": "Улучшение философского верстака",
+  "item.sophisticatedbackpacks.chipped.philosopher_workbench_upgrade.tooltip": "Философский верстак на вкладке улучшений",
+
+  "item.sophisticatedbackpacks.chipped.tinkerer_workbench_upgrade": "Улучшение верстака механика",
+  "item.sophisticatedbackpacks.chipped.tinkerer_workbench_upgrade.tooltip": "Верстак механика на вкладке улучшений",
+
+  "block.minecraft.andesite": "Андезит",
+  "block.minecraft.polished_andesite": "Полированный андезит",
+  "block.minecraft.andesite_stairs": "Ступени из полированного андезита",
+  "block.minecraft.andesite_slab": "Андезитовая плита",
+  "block.minecraft.polished_andesite_slab": "Плита из полированного андезита",
+  "block.minecraft.andesite_wall": "Андезитовая стена",
+
+  "block.the_vault.ore_wutodie": "Руда Вутодие",
+  "block.the_vault.ore_wutodie_stone": "Руда Вутодие — Камень",
+  "block.the_vault.ore_wutodie_vault_stone": "Руда Вутодие — Камень Хранилища",
+  "block.the_vault.ore_wutodie_white": "Руда Вутодие — Диорит",
+
+  "item.the_vault.gem_wutodie": "Самоцвет Вутодие",
+  "item.the_vault.perfect_wutodie": "Идеальный самоцвет Вутодие",
+  "item.the_vault.extraordinary_wutodie": "Экстраординарный самоцвет Вутодие",
+
+  "item.the_vault.wutodic_mass": "Масса Вутодика",
+  "item.the_vault.hardened_wutodic_mass": "Закалённая масса Вутодика",
+
+  "item.the_vault.wutodic_silver_nugget": "Крошка Вутодикового серебра",
+  "item.the_vault.wutodic_silver_ingot": "Слиток Вутодикового серебра",
+  "block.the_vault.wutodic_silver_block": "Блок Вутодикового серебра",
+
+  "item.the_vault.grand_charm": "Токен Бога",
+  "item.the_vault.phoenix_dust": "Пепел феникса",
+  "item.the_vault.mystical_powder": "Мистическая эссенция",
+
+  "item.the_vault.orb_frame": "Рамка сферы",
+  "item.the_vault.mystery_box": "Таинственная коробка",
+
+  "item.the_vault.vault_apple": "Яблоко Хранилища",
+  "item.the_vault.hearty_apple": "Сытое яблоко",
+
+  "item.the_vault.vault_dust": "Пыль Хранилища",
+  "item.the_vault.vault_nugget": "Самородок Хранилища",
+
+  "item.the_vault.red_vault_essence": "Красная эссенция Хранилища",
+
+  "item.the_vault.god_token_idona": "Капстон Идоны",
+  "item.the_vault.god_token_tenos": "Капстон Теноса",
+  "item.the_vault.god_token_velara": "Капстон Велары",
+  "item.the_vault.god_token_wendarr": "Капстон Вендарра",
+
+  "item.the_vault.crystal_seal_ordiniator_run": "Парадоксальный камень Хранилища",
+
+  "block.the_vault.gem_block_iskallium_stairs": "Ступени из Вольдиума",
+  "block.the_vault.gem_block_iskallium_slab": "Плита из Вольдиума",
+  "block.the_vault.gem_block_iskallium_wall": "Стена из Вольдиума",
+
+  "attribute.name.generic.mana_regen": "Регенерация маны",
+  "attribute.name.generic.max_mana": "Максимум маны",
+
+  "entity.the_vault.grimwick": "Гримвик"
+}
