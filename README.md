@@ -1,6 +1,6 @@
 # Wold-s-Vaults---Vault-Hunters-Expansion-
 ### Перевод выполнен для версии Wold's Vaults-0.24.1b. 
-> Для связи используйте возможности github или перейдите в профиль и воспользуйтесь ссылкой на мой ТГ.
+> Для связи используйте возможности github или перейдите в профиль и воспользуйтесь ссылкой на ТГ.
 > 
 wold's vaults translate to russian language
 Перевод сборки Wold's Vaults - Vault Hunters Expansion (https://www.curseforge.com/minecraft/modpacks/wolds-vaults) ,частично ИИ-шный, частично сам переводил. есть недочеты и т.п. (если есть желание готов внести изменения или дать возможность для этого)
