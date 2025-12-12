@@ -5,6 +5,10 @@
 wold's vaults translate to russian language
 Перевод сборки Wold's Vaults - Vault Hunters Expansion (https://www.curseforge.com/minecraft/modpacks/wolds-vaults) ,частично ИИ-шный, частично сам переводил. есть недочеты и т.п. (если есть желание готов внести изменения или дать возможность для этого)
 
+# Установка
+Осуществляется распоковкой архива с заменой в папку сборки 
+<img width="612" height="629" alt="image" src="https://github.com/user-attachments/assets/cbd19239-30e9-4a0e-b506-8128931374a7" />
+
 ## Перевод в процессе :
 - [x] Способности
 - [x] Таланты
@@ -17,10 +21,12 @@ wold's vaults translate to russian language
 
 
 # !!!! **Для исправление кодировки** 
-- Необходимо перед запускам в параметрах Java указать это 
+- Необходимо перед запускам в параметрах Java указать это  <img width="864" height="315" alt="image" src="https://github.com/user-attachments/assets/5c6a9770-862f-445d-8208-580d46be75bc" />
+
 ```
 -Dfile.encoding=UTF-8
 ```
+
 возможно не лучшее решение , но позволяет исправить кодировку способностей чтобы отображался русский текст.
 
 # Примеры:
