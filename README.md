@@ -46,5 +46,7 @@ https://github.com/Linaryx/wold-s-vaults-translate-to-russian/tree/main — с �
 > <img width="2447" height="1373" alt="image" src="https://github.com/user-attachments/assets/fcb59f9a-c6f0-4000-b7a5-f2549f5c740d" />
 
 > <img width="956" height="621" alt="image" src="https://github.com/user-attachments/assets/716995d4-6717-4756-b5d6-fe4065940e94" />
+> <img width="1214" height="647" alt="image" src="https://github.com/user-attachments/assets/124d106f-5d85-45d9-bcba-c6d51a19ec26" />
+> <img width="1067" height="1165" alt="image" src="https://github.com/user-attachments/assets/dbdc325a-488a-43ec-9678-580aeb746052" />
 
 
