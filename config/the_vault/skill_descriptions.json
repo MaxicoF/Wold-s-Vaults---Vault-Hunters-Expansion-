@@ -543,486 +543,486 @@
       }
     ],
     "Vault Compass": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Vault Compass",
-        "color": "yellow"
-      },
-      {
-        "text": "!\n\nThis is the ideal tool for anyone getting lost inside the vault or needing to find certain objectives!\n\nYou can right-click to change Vault Compass modes, you'll unlock new modes as you open Treasure Doors, Dungeons, find Companion Eggs, and more!"
-      }
-    ],
-    "Archers Paradox": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Archers Paradox ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nThis mod adds lots of new arrows such as explosive, piercing, homing, and more!"
-      }
-    ],
-    "Functional Storage": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Functional Storage ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nFunctional Storage is an alternative take on the storage solution of Storage Drawers, with an updated look и дополнительно functionalities."
-      }
-    ],
-    "Time in a Bottle": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Time in a Bottle ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nThis mod adds an amazing item called the Time in a Bottle that stores time as you play, then you can right-click on a block to speed up its tick time using your stored time! Nifty!"
-      },
-      {
-        "text": "\n\nAlso unlocks the Weather Control mod, that lets you control the time of day and the weather!"
-      }
-    ],
-    "Create Ore Excavation": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Ore Excavation ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod for Create!\n\nThis mod adds drilling machines for fluids and ores, search for the randomly generated ore veins and generate ores to your hearts content!"
-      }
-    ],
-    "Create Diesel Generators": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Diesel Generators ",
-        "color": "yellow"
-      },
-      {
-        "text": "addon for Create!\n\nThis mod adds new blocks and items used to dig up oil from the ground using Pumpjacks. Useful for getting oil for PneumaticCraft or getting kinetic energy in a more interesting way!"
-      }
-    ],
-    "Better Wallets": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Gold, Emerald, Diamond, and Netherite Wallets ",
-        "color": "yellow"
-      },
-      {
-        "text": "for Lightman's Currency!\n\nThese wallets store even more currency and have some extra features such as magneting coins into them, exchanging between currencies, and accessing your ATM remotely!"
-      }
-    ],
-    "Create Balanced Flight": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Balanced Flight ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nThis mod adds a block powered by kinetic energy that can give you creative flight within a radius of the block. Alternative to the Angel Block from the Vault mod!"
-      }
-    ],
-    "Thermal Expansion": [
-      {
-        "text": ""
-      },
-      {
-        "text": "Grants Transmog!",
-        "color": "#90FF00"
-      },
-      {
-        "text": "\n"
-      },
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Thermal Expansion",
-        "color": "yellow"
-      },
-      {
-        "text": " mod!\n\nA multipurpose mod that can double ores, increase efficiency of wood logs as well as produce some items from scratch!"
-      },
-      {
-        "text": "\n\nAdds rewards to "
-      },
-      {
-        "text": "Mod Boxes",
-        "color": "aqua"
-      },
-      {
-        "text": "!"
-      }
-    ],
-    "Thermal Dynamos": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Thermal Dynamos",
-        "color": "yellow"
-      },
-      {
-        "text": " from Thermal Expansion!\n\nDynamos are easy to use "
-      },
-      {
-        "text": "Forge Energy (FE)",
-        "color": "aqua"
-      },
-      {
-        "text": " generators that can be upgraded and generate power out of most things, even food and enchanted books!"
-      },
-      {
-        "text": "\n\nAdds rewards to "
-      },
-      {
-        "text": "Mod Boxes",
-        "color": "aqua"
-      },
-      {
-        "text": "!"
-      }
-    ],
-    "Mekanism QIO": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Mekanism QIO",
-        "color": "yellow"
-      },
-      {
-        "text": " from Mekanism!\n\nThis part of Mekanism is a full blown storage system, with massive digital storage disks, powerful and intelligent item transfer and highly customisable crafting utilities Mekanism QIO is a beast of any storage systems."
-      }
-    ],
-    "Applied Botanics": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Applied Botanics ",
-        "color": "yellow"
-      },
-      {
-        "text": "addon for Applied Energistics\n\nThis mod adds mana cells and P2P tunnels for storing and interacting with Botania mana."
-      }
-    ],
-    "Applied Compatability": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Applied Botanics and Applied Mekanistics",
-        "color": "yellow"
-      },
-      {
-        "text": "addon for Applied Energistics\n\nThis mod adds mana cells and P2P tunnels for storing and interacting with Botania mana, and chemical cells for storing and interacting with Mekanism chemicals."
-      }
-    ],
-    "Applied Mekanistics": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Applied Mekanistics ",
-        "color": "yellow"
-      },
-      {
-        "text": "addon for Applied Energistics\n\nThis mod adds chemical cells and P2P tunnels for storing and interacting with Mekanism gases."
-      }
-    ],
-    "Botanical Machinery": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Botanial Machinery ",
-        "color": "yellow"
-      },
-      {
-        "text": "addon for Botania\n\nFor the lazy botanist, this mod adds one-block automation solutions for things like the Runic Altar, Agglomeration Plate, Alfheim Portal, etc. "
-      }
-    ],
-    "Create Crafts and Additions": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Crafts and Additions ",
-        "color": "yellow"
-      },
-      {
-        "text": "addon for Create!\n\nThis mod acts as a bridge between electricity and Create's kinetic energy by adding an electric motor that generates kinetic energy from Forge energy and an alternator that can do the opposite. Also adds a few other useful features!"
-      },
-      {
-        "text": "\n\nAlso adds the "
-      },
-      {
-        "text": "Create Enchantment Industry",
-        "color": "yellow"
-      },
-      {
-        "text": " mod! That lets you enchant and disenchant items with Create!"
-      }
-    ],
-    "Mega Cells": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Mega Cells ",
-        "color": "yellow"
-      },
-      {
-        "text": "addon for Applied Energistics\n\nThis mod adds massive item and fluid cells, crafting storages and units, as well as adding Chemical and Radioactive Chemical cells for Mekanism!"
-      }
-    ],
-    "Extra Storage": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Extra Storage ",
-        "color": "yellow"
-      },
-      {
-        "text": "addon for Refined Storage\n\nThis mod adds massive disks for storing all your items and fluids in, as well as enhanced importers, exporters, and crafters!"
-      }
-    ],
-    "Digital Miner": [
-      {
-        "text": ""
-      },
-      {
-        "text": "⚠ ",
-        "color": "red"
-      },
-      {
-        "text": "Disabled In Vaults!\n",
-        "color": "dark_red"
-      },
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Digital Miner",
-        "color": "yellow"
-      },
-      {
-        "text": " from Mekanism!\n\nAutomatic Mining at it's finest. Place this guy down, select your filters and upgrade modules, provide it with "
-      },
-      {
-        "text": "Forge Energy (FE)",
-        "color": "aqua"
-      },
-      {
-        "text": " and watch it dig out all your treasures!"
-      }
-    ],
-    "Mining Gadgets": [
-      {
-        "text": ""
-      },
-      {
-        "text": "⚠ ",
-        "color": "red"
-      },
-      {
-        "text": "Disabled In Vaults!\n",
-        "color": "dark_red"
-      },
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Mining Gadgets",
-        "color": "yellow"
-      },
-      {
-        "text": " mod!\n\nEver wanted to mine super quick using a laser rifle? If the answer is yes, then this mod is for you. Break blocks faster and at a further distance than you thought was possible with this "
-      },
-      {
-        "text": "Forge Energy (FE)",
-        "color": "aqua"
-      },
-      {
-        "text": " powered mod."
-      }
-    ],
-    "Building Gadgets": [
-      {
-        "text": ""
-      },
-      {
-        "text": "⚠ ",
-        "color": "red"
-      },
-      {
-        "text": "Disabled In Vaults!\n",
-        "color": "dark_red"
-      },
-      {
-        "text": ""
-      },
-      {
-        "text": "Grants Transmog!",
-        "color": "#90FF00"
-      },
-      {
-        "text": "\n"
-      },
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Building Gadgets & Enercell",
-        "color": "yellow"
-      },
-      {
-        "text": " mods!\n\nBuilding gadgets is a mega fun mod that allows you to place hundreds of blocks very quickly! A must have for any mega base builder. Building Gadgets does require "
-      },
-      {
-        "text": "Forge Energy (FE)",
-        "color": "aqua"
-      },
-      {
-        "text": " to operate, and can be charged through Enercell (which are also included in this unlock) but make sure you have access to "
-      },
-      {
-        "text": "power",
-        "color": "gold"
-      },
-      {
-        "text": " first!"
-      }
-    ],
-    "Pipez": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Pipez ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nTransfering items around has never been easier! Pipez is the perfect entry point to any basic automation with item transfers, perfect for your farms or your generators!"
-      }
-    ],
-    "Industrial Foregoing": [
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Industrial Foregoing ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nThis mod contains a ton of useful blocks, useful for mob farming and crop farming. Comes with it's own power solution and storage for items and fluids. Some features of the mod have been disabled such as "
-      },
-      {
-        "text": "Mob Duplicator",
-        "color": "gold"
-      },
-      {
-        "text": " and the "
-      },
-      {
-        "text": "Infinity Hammer, Nuke, Launcher, and Backpack",
-        "color": "gold"
-      },
-      {
-        "text": " have been "
-      },
-      {
-        "text": "disabled",
-        "color": "gold"
-      },
-      {
-        "text": " in Vault Hunters."
-      },
-      {
-        "text": "\n\nAdds rewards to "
-      },
-      {
-        "text": "Mod Boxes",
-        "color": "aqua"
-      },
-      {
-        "text": "!"
-      }
-    ],
-    "Mekanism": [
-      {
-        "text": ""
-      },
-      {
-        "text": "Grants Transmog!",
-        "color": "#90FF00"
-      },
-      {
-        "text": "\n"
-      },
-      {
-        "text": "Unlocks the "
-      },
-      {
-        "text": "Mekanism ",
-        "color": "yellow"
-      },
-      {
-        "text": "mod!\n\nMekanism is a high tech mega mod! It provides you with ore processing, making you able to quintuple the outcome of a raw ore, super fast smelters and crushers and much more. Some features of Mekanism, such as the "
-      },
-      {
-        "text": "jetpack",
-        "color": "gold"
-      },
-      {
-        "text": " and the "
-      },
-      {
-        "text": "Meka Suit",
-        "color": "gold"
-      },
-      {
-        "text": " has been "
-      },
-      {
-        "text": "disabled",
-        "color": "gold"
-      },
-      {
-        "text": " in Vault Hunters."
-      },
-      {
-        "text": "\n\nAdds rewards to "
-      },
-      {
-        "text": "Mod Boxes",
-        "color": "aqua"
-      },
-      {
-        "text": "!"
-      }
-    ],
+				 {
+		  "text": "Разблокирует "
+		},
+		{
+		  "text": "Vault Compass",
+		  "color": "yellow"
+		},
+		{
+		  "text": "!\n\nЭто идеальный инструмент для тех, кто теряется внутри vault или кому нужно найти определенные цели!\n\nВы можете нажать ПКМ, чтобы изменить режимы Vault Compass, новые режимы разблокируются по мере открытия Treasure Doors, Dungeons, нахождения Companion Eggs и многого другого!"
+		}
+  ],
+		"Archers Paradox": [
+		  {
+			"text": "Разблокирует "
+		  },
+		  {
+			"text": "Archers Paradox ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "мод!\n\nЭтот мод добавляет множество новых стрел, таких как взрывные, проникающие, самонаводящиеся и другие!"
+		  }
+		],
+		"Functional Storage": [
+		  {
+			"text": "Разблокирует "
+		  },
+		  {
+			"text": "Functional Storage ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "мод!\n\nFunctional Storage — это альтернативное решение для хранения по сравнению с Storage Drawers, с обновленным внешним видом и дополнительными функциями."
+		  }
+		],
+		"Time in a Bottle": [
+		  {
+			"text": "Разблокирует "
+		  },
+		  {
+			"text": "Time in a Bottle ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "мод!\n\nЭтот мод добавляет удивительный предмет под названием Time in a Bottle, который накапливает время по мере вашей игры, затем вы можете нажать ПКМ по блоку, чтобы ускорить его обработку, используя накопленное время! Ловко!"
+		  },
+		  {
+			"text": "\n\nТакже разблокирует мод Weather Control, который позволяет вам контролировать время суток и погоду!"
+		  }
+		],
+		"Create Ore Excavation": [
+		  {
+			"text": "Разблокирует "
+		  },
+		  {
+			"text": "Ore Excavation ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "мод для Create!\n\nЭтот мод добавляет буровые установки для жидкостей и руд, ищите случайно сгенерированные жилы руд и добывайте руды сколько душе угодно!"
+		  }
+		],
+		"Create Diesel Generators": [
+		  {
+			"text": "Разблокирует аддон "
+		  },
+		  {
+			"text": "Diesel Generators ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "для Create!\n\nЭтот мод добавляет новые блоки и предметы, используемые для добычи нефти из земли с помощью Pumpjacks. Полезно для получения нефти для PneumaticCraft или получения кинетической энергии более интересным способом!"
+		  }
+		],
+		"Better Wallets": [
+		  {
+			"text": "Разблокирует "
+		  },
+		  {
+			"text": "Gold, Emerald, Diamond и Netherite Wallets ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "для Lightman's Currency!\n\nЭти кошельки хранят еще больше валюты и имеют дополнительные функции, такие как притягивание монет, обмен между валютами и удаленный доступ к вашему ATM!"
+		  }
+		],
+		"Create Balanced Flight": [
+		  {
+			"text": "Разблокирует мод "
+		  },
+		  {
+			"text": "Balanced Flight ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "!\n\nЭтот мод добавляет блок, работающий на кинетической энергии, который может дать вам творческий полет в радиусе действия блока. Альтернатива Angel Block из мода Vault!"
+		  }
+		],
+		"Thermal Expansion": [
+		  {
+			"text": ""
+		  },
+		  {
+			"text": "Дает Transmog!",
+			"color": "#90FF00"
+		  },
+		  {
+			"text": "\n"
+		  },
+		  {
+			"text": "Разблокирует мод "
+		  },
+		  {
+			"text": "Thermal Expansion",
+			"color": "yellow"
+		  },
+		  {
+			"text": "!\n\nМногофункциональный мод, который может удваивать руды, повышать эффективность древесины, а также производить некоторые предметы с нуля!"
+		  },
+		  {
+			"text": "\n\nДобавляет награды в "
+		  },
+		  {
+			"text": "Mod Boxes",
+			"color": "aqua"
+		  },
+		  {
+			"text": "!"
+		  }
+		],
+		"Thermal Dynamos": [
+		  {
+			"text": "Разблокирует "
+		  },
+		  {
+			"text": "Thermal Dynamos",
+			"color": "yellow"
+		  },
+		  {
+			"text": " из Thermal Expansion!\n\nDynamos — это простые в использовании генераторы "
+		  },
+		  {
+			"text": "Forge Energy (FE)",
+			"color": "aqua"
+		  },
+		  {
+			"text": ", которые можно улучшать и которые производят энергию из большинства вещей, даже из еды и зачарованных книг!"
+		  },
+		  {
+			"text": "\n\nДобавляет награды в "
+		  },
+		  {
+			"text": "Mod Boxes",
+			"color": "aqua"
+		  },
+		  {
+			"text": "!"
+		  }
+		],
+		"Mekanism QIO": [
+		  {
+			"text": "Разблокирует "
+		  },
+		  {
+			"text": "Mekanism QIO",
+			"color": "yellow"
+		  },
+		  {
+			"text": " из Mekanism!\n\nЭта часть Mekanism — полноценная система хранения, с массивными цифровыми дисками хранения, мощной и интеллектуальной передачей предметов и высоконастраиваемыми утилитами для крафта. Mekanism QIO — это зверь среди систем хранения."
+		  }
+		],
+		"Applied Botanics": [
+		  {
+			"text": "Разблокирует аддон "
+		  },
+		  {
+			"text": "Applied Botanics ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "для Applied Energistics\n\nЭтот мод добавляет ячейки маны и P2P туннели для хранения и взаимодействия с маной из Botania."
+		  }
+		],
+		"Applied Compatability": [
+		  {
+			"text": "Разблокирует аддоны "
+		  },
+		  {
+			"text": "Applied Botanics и Applied Mekanistics",
+			"color": "yellow"
+		  },
+		  {
+			"text": " для Applied Energistics\n\nЭтот мод добавляет ячейки маны и P2P туннели для хранения и взаимодействия с маной Botania, а также химические ячейки для хранения и взаимодействия с химикатами Mekanism."
+		  }
+		],
+		"Applied Mekanistics": [
+		  {
+			"text": "Разблокирует аддон "
+		  },
+		  {
+			"text": "Applied Mekanistics ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "для Applied Energistics\n\nЭтот мод добавляет химические ячейки и P2P туннели для хранения и взаимодействия с газами Mekanism."
+		  }
+		],
+		"Botanical Machinery": [
+		  {
+			"text": "Разблокирует аддон "
+		  },
+		  {
+			"text": "Botanial Machinery ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "для Botania\n\nДля ленивых ботаников этот мод добавляет одноблочные решения для автоматизации таких вещей, как Runic Altar, Agglomeration Plate, Alfheim Portal и т.д."
+		  }
+		],
+		"Create Crafts and Additions": [
+		  {
+			"text": "Разблокирует аддон "
+		  },
+		  {
+			"text": "Crafts and Additions ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "для Create!\n\nЭтот мод служит мостом между электричеством и кинетической энергией Create, добавляя электродвигатель, который генерирует кинетическую энергию из Forge Energy, и генератор, который может делать обратное. Также добавляет несколько других полезных функций!"
+		  },
+		  {
+			"text": "\n\nТакже добавляет мод "
+		  },
+		  {
+			"text": "Create Enchantment Industry",
+			"color": "yellow"
+		  },
+		  {
+			"text": "! Он позволяет зачаровывать и расчаровывать предметы с помощью Create!"
+		  }
+		],
+		"Mega Cells": [
+		  {
+			"text": "Разблокирует аддон "
+		  },
+		  {
+			"text": "Mega Cells ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "для Applied Energistics\n\nЭтот мод добавляет массивные ячейки для предметов и жидкостей, хранилища для крафта и юниты, а также химические и радиоактивные химические ячейки для Mekanism!"
+		  }
+		],
+		"Extra Storage": [
+		  {
+			"text": "Разблокирует аддон "
+		  },
+		  {
+			"text": "Extra Storage ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "для Refined Storage\n\nЭтот мод добавляет массивные диски для хранения всех ваших предметов и жидкостей, а также улучшенные импортеры, экспортеры и крафтеры!"
+		  }
+		],
+		"Digital Miner": [
+		  {
+			"text": ""
+		  },
+		  {
+			"text": "⚠ ",
+			"color": "red"
+		  },
+		  {
+			"text": "Отключено в Vaults!\n",
+			"color": "dark_red"
+		  },
+		  {
+			"text": "Разблокирует "
+		  },
+		  {
+			"text": "Digital Miner",
+			"color": "yellow"
+		  },
+		  {
+			"text": " из Mekanism!\n\nАвтоматическая добыча в лучшем виде. Поставьте этого парня, выберите фильтры и модули улучшений, обеспечьте его "
+		  },
+		  {
+			"text": "Forge Energy (FE)",
+			"color": "aqua"
+		  },
+		  {
+			"text": " и наблюдайте, как он выкапывает все ваши сокровища!"
+		  }
+		],
+		"Mining Gadgets": [
+		  {
+			"text": ""
+		  },
+		  {
+			"text": "⚠ ",
+			"color": "red"
+		  },
+		  {
+			"text": "Отключено в Vaults!\n",
+			"color": "dark_red"
+		  },
+		  {
+			"text": "Разблокирует мод "
+		  },
+		  {
+			"text": "Mining Gadgets",
+			"color": "yellow"
+		  },
+		  {
+			"text": "!\n\nВы когда-нибудь хотели добывать ресурсы супербыстро с помощью лазерной винтовки? Если ответ да, то этот мод для вас. Ломайте блоки быстрее и на большем расстоянии, чем вы думали, с помощью этого мода на "
+		  },
+		  {
+			"text": "Forge Energy (FE)",
+			"color": "aqua"
+		  },
+		  {
+			"text": "."
+		  }
+		],
+		"Building Gadgets": [
+		  {
+			"text": ""
+		  },
+		  {
+			"text": "⚠ ",
+			"color": "red"
+		  },
+		  {
+			"text": "Отключено в Vaults!\n",
+			"color": "dark_red"
+		  },
+		  {
+			"text": ""
+		  },
+		  {
+			"text": "Дает Transmog!",
+			"color": "#90FF00"
+		  },
+		  {
+			"text": "\n"
+		  },
+		  {
+			"text": "Разблокирует моды "
+		  },
+		  {
+			"text": "Building Gadgets & Enercell",
+			"color": "yellow"
+		  },
+		  {
+			"text": "!\n\nBuilding Gadgets — это мега веселый мод, который позволяет вам размещать сотни блоков очень быстро! Это необходимо для любого строителя мега-баз. Building Gadgets требуют "
+		  },
+		  {
+			"text": "Forge Energy (FE)",
+			"color": "aqua"
+		  },
+		  {
+			"text": " для работы и могут заряжаться через Enercell (которые также включены в этот разблок), но убедитесь, что у вас сначала есть доступ к "
+		  },
+		  {
+			"text": "энергии",
+			"color": "gold"
+		  },
+		  {
+			"text": "!"
+		  }
+		],
+		"Pipez": [
+		  {
+			"text": "Разблокирует мод "
+		  },
+		  {
+			"text": "Pipez ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "!\n\nПеремещение предметов никогда не было таким простым! Pipez — идеальная отправная точка для любой базовой автоматизации с передачей предметов, идеально подходит для ваших ферм или генераторов!"
+		  }
+		],
+		"Industrial Foregoing": [
+		  {
+			"text": "Разблокирует мод "
+		  },
+		  {
+			"text": "Industrial Foregoing ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "!\n\nЭтот мод содержит массу полезных блоков, полезных для ферм мобов и сельского хозяйства. Поставляется с собственным решением для энергии и хранением предметов и жидкостей. Некоторые функции мода, такие как "
+		  },
+		  {
+			"text": "Mob Duplicator",
+			"color": "gold"
+		  },
+		  {
+			"text": " и "
+		  },
+		  {
+			"text": "Infinity Hammer, Nuke, Launcher и Backpack",
+			"color": "gold"
+		  },
+		  {
+			"text": ", были "
+		  },
+		  {
+			"text": "отключены",
+			"color": "gold"
+		  },
+		  {
+			"text": " в Vault Hunters."
+		  },
+		  {
+			"text": "\n\nДобавляет награды в "
+		  },
+		  {
+			"text": "Mod Boxes",
+			"color": "aqua"
+		  },
+		  {
+			"text": "!"
+		  }
+		],
+		"Mekanism": [
+		  {
+			"text": ""
+		  },
+		  {
+			"text": "Дает Transmog!",
+			"color": "#90FF00"
+		  },
+		  {
+			"text": "\n"
+		  },
+		  {
+			"text": "Разблокирует мод "
+		  },
+		  {
+			"text": "Mekanism ",
+			"color": "yellow"
+		  },
+		  {
+			"text": "!\n\nMekanism — это высокотехнологичный мега-мод! Он предоставляет вам переработку руд, позволяя увеличить выход сырой руды впятеро, супербыстрые плавильни и дробилки и многое другое. Некоторые функции Mekanism, такие как "
+		  },
+		  {
+			"text": "джетпак",
+			"color": "gold"
+		  },
+		  {
+			"text": " и "
+		  },
+		  {
+			"text": "Meka Suit",
+			"color": "gold"
+		  },
+		  {
+			"text": ", были "
+		  },
+		  {
+			"text": "отключены",
+			"color": "gold"
+		  },
+		  {
+			"text": " в Vault Hunters."
+		  },
+		  {
+			"text": "\n\nДобавляет награды в "
+		  },
+		  {
+			"text": "Mod Boxes",
+			"color": "aqua"
+		  },
+		  {
+			"text": "!"
+		  }
+		],
     "Botania": [
       {
         "text": ""
@@ -3625,23 +3625,24 @@
         "color": "#00F797"
       }
     ],
-    "Elvish": {
+    "Elvish": 
+	{
       "text": "Permanently remove all possible fall damage."
-    },
+	},
     "Angel": [
-      {
-        "text": "Grants the ability to craft "
-      },
-      {
-        "text": "Angel Block",
-        "color": "#FF2EFF"
-      },
-      {
-        "text": " and have them grant you Creative Flight. Angel blocks can not be placed inside vaults, and have a radius of 64 blocks per block."
-      },
-      {
-        "text": "\n\nAlso allows you the ability to craft and wear Angel Rings (note: ALL forms of creative flight are disabled in vaults)."
-      }
+		{
+		  "text": "Даёт возможность создавать "
+		},
+		{
+		  "text": "Angel Block",
+		  "color": "#FF2EFF"
+		},
+		{
+		  "text": " и использовать их для получения Creative Flight. Angel blocks нельзя размещать внутри vaults, и каждый блок действует в радиусе 64 блоков."
+		},
+		{
+		  "text": "\n\nТакже позволяет создавать и носить Angel Rings (примечание: ВСЕ формы creative flight отключены в vaults)."
+		}
     ],
     "Reach": [
       {

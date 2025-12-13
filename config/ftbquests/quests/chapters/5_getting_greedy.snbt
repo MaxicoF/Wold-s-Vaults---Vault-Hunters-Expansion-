@@ -3,13 +3,13 @@
 	group: "1A78C6EA3A0ABFDA"
 	order_index: 5
 	filename: "5_getting_greedy"
-	title: "[5] Let's Get Greedy"
+	title: "[5] Давайте жадничать"
 	icon: "the_vault:wold_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Mapping A Heist"
+			title: "Составление карты ограбления"
 			icon: {
 				id: "the_vault:map"
 				Count: 1b
@@ -193,15 +193,15 @@
 			x: -3.25d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Your Guide to Greed"
+			subtitle: "Ваш путеводитель по жадности"
 			description: [
-				"&5Once you've defeated the Herald, you gain access to a brand new piece of Vault Gear : a Vault Map. Vault Maps are the key to a new post-Herald challenge called Mapped Vaults. They can be crafted in the Vault Forge."
+				"&5Победив Геральда, вы получите доступ к совершенно новому предмету Vault Gear - Карте сводов. Карты хранилищ - это ключ к новому испытанию после Геральда, которое называется \"Картированные хранилища\". Их можно изготовить в Кузнице сводов."
 				""
-				"&5When you identify a Vault Map, it will roll a set Objective, Theme, as well as set Modifiers like bonus Item Quantity and similar. There are multiple tiers of Maps to keep a look out for as well!"
+				"&5Когда вы определите карту хранилища, она будет содержать определенную цель, тему, а также модификаторы, такие как количество бонусных предметов и т. д. Существует несколько уровней карт, за которыми тоже нужно следить!"
 				""
-				"&5Also, there's some neat things you can do with Vault Maps, since they are considered Vault Gear..."
+				"&5Кроме того, есть несколько интересных вещей, которые можно делать с картами Vault, поскольку они считаются Vault Gear..."
 				""
-				"&5To get more Vault Maps, you can find them in Mapped Vaults, or craft them in the Vault Forge."
+				"&5Чтобы получить больше карт хранилищ, вы можете найти их в Картографированных хранилищах или изготовить в Кузнице хранилищ."
 			]
 			dependencies: ["1E1457C794B6792E"]
 			hide: true
@@ -219,21 +219,21 @@
 			}]
 		}
 		{
-			title: "Rocking The Greed"
+			title: "Рокировка жадности"
 			x: -1.25d
 			y: -1.0d
 			shape: "pentagon"
-			subtitle: "A Best Laid Plan"
+			subtitle: "Лучший план"
 			description: [
-				"&5To run a Mapped Vault, you will need a Vault Crystal with the Greedy modifier, obtainable by using a Greedy Vault Rock on a Vault Altar and filling out the ingredients. "
+				"&5Чтобы запустить картографическое хранилище, вам понадобится кристалл хранилища с модификатором \"Жадность\", который можно получить, используя камень хранилища \"Жадность\" на алтаре хранилища и заполнив ингредиенты. "
 				""
-				"&5BE WARNED, these ingredients will be items found inside Vaults instead of outside!"
+				"&5Будьте внимательны, эти ингредиенты можно найти в хранилищах, а не снаружи!"
 				""
-				"&5An Altar Recatalyzer will cancel a Greedy Rock Vault completely instead of rerolling it, in case you don't have the Vault materials needed."
+				"&5Алтарный рекатализатор полностью отменяет действие Хранилища жадной скалы, а не восстанавливает его, если у вас нет необходимых материалов для Хранилища."
 				""
-				"&5Take a Vault Map and a Vault Crystal with Greedy on it, combine them in an Anvil and you are ready to Greed!"
+				"&5Возьмите карту хранилища и кристалл хранилища с надписью Greedy, соедините их в наковальне - и вы готовы к жадности!"
 				""
-				"&5Mapped Vaults will be more difficult than your standard Vaults. New themes, new mobs, new loot you can ONLY find in Mapped Vaults!"
+				"&5Картографированные хранилища будут сложнее, чем обычные хранилища. Новые темы, новые мобы, новый лут, который вы сможете найти только в Картографированных хранилищах!"
 			]
 			dependencies: ["64E050541DAAF09C"]
 			hide: true
@@ -251,20 +251,20 @@
 			}]
 		}
 		{
-			title: "Etched in Power"
+			title: "Вытравленная сила"
 			icon: "woldsvaults:etching_shop_pedestal"
 			x: -3.25d
 			y: 0.25d
 			shape: "rsquare"
-			subtitle: "What's That Rune Mean?"
+			subtitle: "Что означает эта руна?"
 			description: [
-				"&5Etchings are a special type of Vault Gear Modification that provides extremely powerful benefits. NOTE: THIS QUEST IS NOT COMPLETEABLE AS ETCHINGS ARE BROKEN CURRENTLY!"
+				"&5Эскизы - это особый тип модификации Vault Gear, дающий чрезвычайно мощные преимущества. ПРИМЕЧАНИЕ: ЭТОТ КВЕСТ НЕ МОЖЕТ БЫТЬ ВЫПОЛНЕН, ТАК КАК В НАСТОЯЩЕЕ ВРЕМЯ ЭТЧИНГИ СЛОМАНЫ!"
 				""
-				"&5Etchings can only be found in Mapped Vaults, usually from special Vendoor rooms, but they can be found rarely in other ways."
+				"&5Эстампы можно найти только в картографических хранилищах, обычно из специальных комнат Вендура, но в редких случаях их можно найти и другими способами."
 				""
-				"&5To take advantage of an Etching bonus, ALL FOUR pieces of your Vault Armor (Head, Chest, Legs, Boots) must have the same Etching applied."
+				"&5Чтобы воспользоваться бонусом от травления, на ВСЕ ЧЕТЫРЕ части брони хранилища (голова, грудь, ноги, сапоги) должно быть нанесено одно и то же травление."
 				""
-				"&5To Apply an Etching to your Vault Gear, combine them in an Anvil."
+				"&5Чтобы нанести травление на предметы из хранилища, соедините их в наковальне."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1BB69DE20D9F42F7"]
@@ -283,23 +283,23 @@
 			}]
 		}
 		{
-			title: "Task Corrupted Succesfully "
+			title: "Задание успешно исправлено "
 			x: -1.75d
 			y: -2.25d
 			shape: "rsquare"
-			subtitle: "Falling Apart"
+			subtitle: "Падение на части"
 			description: [
-				"&5There is a special type of Objective, quite difficult to tackle but the only way to obtain certain materials."
+				"&5Есть особый тип Цели, довольно сложный для выполнения, но единственный способ получить определенные материалы."
 				""
-				"&5They are called Corrupted objectives, and are obtained with a special seal you apply to your Crystal."
+				"&5Они называются \"Испорченные цели\" и получаются с помощью специальной печати, которую вы накладываете на свой кристалл."
 				""
-				"&5When you Corrupt a Crystal, the objective will be set to Corrupted, and the Theme will be set to Lost Void."
+				"&5Когда вы испортите кристалл, цель будет установлена на Corrupted, а тема - на Lost Void."
 				""
-				"&5When you enter this corrupted Vault, your view will be heavily altered. This special view can be disabled by hitting F4 if it is causing you visual or performance problems."
+				"&5Когда вы войдете в это поврежденное хранилище, ваш вид будет сильно изменен. Этот особый вид можно отключить, нажав F4, если он вызывает у вас проблемы со зрением или производительностью."
 				""
-				"&5Corrupted Objective is a very difficult objective, be warned as the longer you are in the Vault, the more difficult it will become. I shall not say more than to warn you of this, it must be experienced first hand."
+				"&5Corrupted Objective - очень сложная цель, будьте внимательны: чем дольше вы находитесь в хранилище, тем сложнее она становится. Я не буду говорить больше, чем предупреждать вас об этом, это нужно испытать на собственном опыте."
 				""
-				"&5This seal ONLY obtained in Mapped Vaults, but its not the only way to Corrupt your crystal...."
+				"&5Эту печать можно получить ТОЛЬКО в картографических хранилищах, но это не единственный способ испортить ваш кристалл....."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1BB69DE20D9F42F7"]
@@ -317,17 +317,17 @@
 			}]
 		}
 		{
-			title: "Null in the Void"
+			title: "Ноль в пустоте"
 			x: -0.75d
 			y: -2.25d
 			shape: "rsquare"
-			subtitle: "From Corruption to Control"
+			subtitle: "От коррупции к контролю"
 			description: [
-				"&5Nullite is a rare resource that can only be found from Corrupted objective Vaults."
+				"&5Нуллит - редкий ресурс, который можно найти только в Испорченных хранилищах целей."
 				""
-				"&5You get Nullite from two sources : Ore POIs and the Completion Crate."
+				"&5Нуллит можно получить из двух источников: Рудные точки интереса и ящик завершения."
 				""
-				"&5Nullite Fragements craft into Nullite Crystals, which are used in a new tier of tools with higher capacity and repairs called Nullite Tools."
+				"&5Осколки нуллита превращаются в кристаллы нуллита, которые используются в новом уровне инструментов с повышенной мощностью и ремонтом, называемом Nullite Tools."
 			]
 			hide_dependency_lines: true
 			dependencies: ["041C09029AA797E9"]
@@ -346,19 +346,19 @@
 			}]
 		}
 		{
-			title: "Pearlescent Battles"
+			title: "Перламутровые битвы"
 			x: -1.25d
 			y: 0.25d
 			shape: "rsquare"
-			subtitle: "Challenging and Rewarding"
+			subtitle: "Вызов и вознаграждение"
 			description: [
-				"&5Gateway Pearls are a special piece of loot that are only obtainable in Mapped Vaults."
+				"&5Жемчуг врат - это особый предмет, который можно получить только в картографических хранилищах."
 				""
-				"&5Using an Unidentified Gateway Pearl will get you a random Gateway Pearl. These Pearls can be used to summmon a wave-based challenge. If you don't have a Vault Pearl, you can still Right Click the Gateway block to start a random Gateway instead!"
+				"&5Используя жемчужину неопознанного шлюза, вы получите случайную жемчужину шлюза. Эти жемчужины можно использовать для подведения итогов волнового испытания. Если у вас нет жемчужины хранилища, вы можете щелкнуть правой кнопкой мыши на блоке шлюза, чтобы начать случайный шлюз!"
 				""
-				"&5Monsters will spawn in waves, and to win you must kill every monster within a time limit."
+				"&5Монстры будут появляться волнами, и чтобы победить, вы должны убить всех монстров за определенное время."
 				""
-				"&5If you succeed you will get some special rewards, some you can only find from a Gateway Pearl."
+				"&5Если вы добьетесь успеха, то получите особые награды, некоторые из которых можно найти только в Gateway Pearl."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1BB69DE20D9F42F7"]
@@ -376,19 +376,19 @@
 			}]
 		}
 		{
-			title: "Pretty Fly For A Vault..."
+			title: "Довольно мудрено для хранилища..."
 			x: -3.25d
 			y: -2.25d
 			shape: "rsquare"
-			subtitle: "...Wait, Are We God Now?"
+			subtitle: "...Подождите, мы теперь Бог?"
 			description: [
-				"&5Defeating the Herald unlocks a recipe in the Vault Forge for a Zephyr Charm."
+				"&5Победа над Геральдом открывает в Кузнице хранилища рецепт амулета Зефира."
 				""
-				"&5The Zephyr Charm is a powerful charm that boosts your ground speed a bit, but also boosts your air speed by much, much more! "
+				"&5Zephyr Charm - это мощный амулет, который немного увеличивает скорость передвижения по земле, но при этом намного, намного больше увеличивает скорость передвижения по воздуху! "
 				""
-				"&5This means you can nearly fly through Vaults by bunny hopping!"
+				"&5Это значит, что вы можете почти летать по Сводам, прыгая на кролике!"
 				""
-				"&5Just be careful! It's very easy to throw yourself into a dangerous situation. Like Lava. "
+				"&5Только будьте осторожны! Очень легко попасть в опасную ситуацию. Например, в лаву. "
 			]
 			hide_dependency_lines: true
 			dependencies: ["1E1457C794B6792E"]
@@ -406,20 +406,20 @@
 			}]
 		}
 		{
-			title: "Prestigous Ascent"
+			title: "Престижный подъем"
 			icon: "woldsvaults:chromatic_gold_angel_ring"
 			x: -5.0d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "Grinding to Godhood"
+			subtitle: "Шлифовка к божественности"
 			description: [
-				"&5Upon defeating the Herald, you unlock one of the major end-game systems : Prestige."
+				"&5Победив Геральда, вы разблокируете одну из основных систем конечной игры - Престиж."
 				""
-				"&5Prestige enables you to continue running Vaults, earning XP and loot. When you gain a level above 100, you earn a Prestige Point."
+				"&5Престиж позволяет вам продолжать управлять хранилищами, зарабатывая XP и лут. Когда вы получаете уровень выше 100, вы зарабатываете Очко Престижа."
 				""
-				"&5Prestige Points can be used in the new Prestige Power tab in your VH GUI. They are set into tiers, and each power in a tier you unlock requires a power unlocked in a previous tier (Example : to unlock a 3rd Tier3 Power, you must have 3 Tier2 powers and 3 Tier1 Powers unlocked!)"
+				"&5Очки престижа можно использовать на новой вкладке Prestige Power в графическом интерфейсе VH. Они разделены на уровни, и каждая сила в уровне, которую вы разблокируете, требует силы, разблокированной в предыдущем уровне (пример: чтобы разблокировать 3-ю силу уровня 3, у вас должно быть разблокировано 3 силы уровня 2 и 3 силы уровня 1)"
 				""
-				"&5Note that Prestige Powers not only require Prestige Points, but also Knowledge Points to unlock!"
+				"&5Обратите внимание, что для открытия Престижных способностей требуются не только очки Престижа, но и очки Знаний!"
 			]
 			dependencies: ["1E1457C794B6792E"]
 			id: "52C9C1DA4A72E836"

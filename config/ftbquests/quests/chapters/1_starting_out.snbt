@@ -3,7 +3,7 @@
 	group: "1A78C6EA3A0ABFDA"
 	order_index: 1
 	filename: "1_starting_out"
-	title: "[1] Starting Out"
+	title: "[1] Начало"
 	icon: {
 		id: "the_vault:vault_crystal"
 		Count: 1b
@@ -24,27 +24,27 @@
 			}
 		}
 	}
-	subtitle: ["The Basics"]
+	subtitle: ["Основы"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Of Skills and Preperation"
+			title: "Навыки и подготовка"
 			icon: "minecraft:shulker_box"
 			x: 3.75d
 			y: 2.75d
 			shape: "hexagon"
-			subtitle: "Getting Ready"
+			subtitle: "Готовимся"
 			description: [
-				"&5Be sure to follow along with the built-in Vault Hunters quests. They are somewhat out of date, but do give you some nice items to help you out."
+				"&5Обязательно выполняйте встроенные квесты Vault Hunters. Они уже немного устарели, но дают вам несколько хороших предметов, которые помогут вам."
 				""
-				"&5You'll get a Shulker Box and a free skill point before your first Vault, both of which are super helpful. The Shulker will let you extract with more loot, and you'll be able to replace them pretty soon. "
+				"&5Перед первым хранилищем вы получите Шалкеровый ящик и бесплатное очко умений - оба эти предмета очень полезны. Шалкеровый ящик позволит вам добывать больше предметов, а заменить их вы сможете довольно быстро. "
 				""
-				"&5I highly recommend you use that first skill point on some way to heal yourself. You DO NOT heal naturally in the Vault. You have to use either a Healing skill, or a special Vault Potion."
+				"&5Я настоятельно рекомендую вам использовать первое очко навыка в способность Heal. В Хранилище нельзя исцелиться естественным путем. Приходится использовать либо навык исцеления, либо специальное зелье Хранилища."
 				""
-				"&5You can read over and put your skill points in the Vault Hunters GUI (default key: H). This is also where you can find the built-in quests."
+				"&5Ознакомиться с ними и использовать очки навыков можно в графическом интерфейсе Vault Hunters (клавиша по умолчанию: H). Там же вы найдете встроенные квесты."
 				""
-				"&5I also recommend getting yourself some Iron or Diamond Armor to start with. But that's up to you!"
+				"&5Я также рекомендую для начала обзавестись железной или алмазной броней. Но это уже на ваше усмотрение!"
 			]
 			dependencies: ["19220F4E56CB0A0F"]
 			hide: true
@@ -52,7 +52,7 @@
 			tasks: [{
 				id: "4080321A77B04EDC"
 				type: "checkmark"
-				title: "Got Enough Space?"
+				title: "Достаточно места?"
 			}]
 			rewards: [{
 				id: "3FF61EC07B0806E4"
@@ -61,22 +61,22 @@
 			}]
 		}
 		{
-			title: "The Altar"
+			title: "Алтарь"
 			icon: "the_vault:vault_altar"
 			x: 1.75d
 			y: 2.25d
 			shape: "hexagon"
-			subtitle: "A Sacrifice of Material"
+			subtitle: "Жертвоприношение предметов"
 			description: [
-				"&5Get yourself set up with a base, whether temporary or permanent or \"No seriously I'll move eventually!\""
+				"&5Устройте себе базу, временную или постоянную, или \"Нет, серьезно, со временем я перееду!\""
 				""
-				"&5You'll need room to make the Vault Portal, as well as space for a lot of crafting stations and item storage."
+				"&5Вам понадобится место, чтобы сделать портал в Vault, а также место для множества столов и склад для предметов."
 				""
-				"&5Then make yourself a Vault Altar and place it down somewhere. When you do, it will bind to you, and only you can place Vault Rocks on it."
+				"&5Затем сделайте себе Vault Altar и поставьте его где-нибудь. Когда вы это сделаете, он привяжется к вам, и только вы сможете поместить на него Vault Rocks."
 				""
-				"&5Right Click a Vault Rock onto the Vault Altar. It'll pop up with four items and how much of each the Vault Altar wants. This is the cost of making a Vault Crystal, which will create a Portal into a Vault."
+				"&5Щелкните правой кнопкой мыши Vault Rocks по Vault Altar. Над алтарем появится четырьмя предмета и их количество, которые необходимо бросить в Vault Altar. Это необходимо для изготовления Vault Crystal, который используется для создания портала в Vault."
 				""
-				"&5To pay for the crystal, just throw the items near the Altar. It will pull them in if they are needed, otherwise it just ignores them. Once the price is paid, put a Button or Lever on the Altar and activate it to create the Vault Crystal."
+				"&5Чтобы создать кристалл, просто бросьте предметы рядом с Алтарем. Он притянет их, если они нужны, в противном случае просто проигнорирует их. Когда все предметы будут получены, подайте на Алтарь редстоун сигнал, чтобы завершить создание Vault Crystal."
 			]
 			dependencies: ["13443B45E662A04C"]
 			hide: true
@@ -90,7 +90,7 @@
 				{
 					id: "749233C0BD55DFBF"
 					type: "item"
-					title: "A Ready Vault Crystal"
+					title: "Готовый кристалл хранилища"
 					item: {
 						id: "the_vault:vault_crystal"
 						Count: 1b
@@ -120,7 +120,7 @@
 			}]
 		}
 		{
-			title: "Your First Adventure"
+			title: "Ваше первое приключение"
 			icon: {
 				id: "the_vault:sword"
 				Count: 1b
@@ -152,49 +152,48 @@
 			x: 7.25d
 			y: 2.75d
 			shape: "hexagon"
-			subtitle: "And a Starting Gift"
 			description: [
-				"&5Once you have your Vault Crystal and a skill, and hopefully a Shulker Box or two or something for loot, it's time to summon the Vault Portal!"
+				"&5Как только вы получите Vault Crystal и навык, а также, надеюсь, Шалкеровый ящик или два или что-то в этом роде, настанет время вызвать портал в Vault!"
 				""
-				"&5It's just like the Nether Portal. A 4 wide, 5 tall frame of Vault Cobblestone. Or Vault Stone. Or Polished Vault Stone. You can make the portal looking nice."
+				"&5Это точно так же, как портал в Ад. Рамка шириной 4 и высотой 5 блоков из Vault Cobblestone или Vault Stone. Или полированного Vault Stone. Вы можете сделать портал красивым."
 				""
-				"&5You can make a bigger portal frame as well to better fit into your base build."
+				"&5Вы можете сделать портальную раму большего размера, чтобы она лучше вписалась в вашу базовую конструкцию."
 				""
-				"&5To summon the Vault Portal, Right Click that Vault Crystal onto the base of the portal frame you just made. It'll consume the crystal and open a portal into the Vault. Don't go in yet!"
+				"&5Чтобы вызвать портал в Vault, щелкните правой кнопкой мыши Vault Crystal на основании рамки портала, которую вы только что создали. Это поглотит кристалл и откроет портал в Vault. Пока не входите!"
 				""
-				"&5The first room you'll enter is the Portal Room, it lets you prepare, as well as wait for other players to load. "
+				"&5Первая комната, в которую вы попадете, - это Портальная комната, она позволяет вам подготовиться, а также подождать, пока загрузятся другие игроки. "
 				""
-				"&5If you've been following the built-in Vault Hunter's quests, you should of been given your first pieces of Vault Gear!"
+				"&5Если вы выполняли встроенные квесты Охотника за хранилищами, то должны были получить свои первые предметы Vault Gear!"
 			]
 			dependencies: ["4A7F919339917ED3"]
 			id: "249CEFD98AF2D014"
 			tasks: [{
 				id: "4DB4702036EF06D7"
 				type: "checkmark"
-				title: "Treasure?!"
+				title: "Сокровища?!"
 			}]
 		}
 		{
-			title: "To Build the Gate"
+			title: "Построить портал"
 			icon: "the_vault:bumbo_polished_vault_stone"
 			x: 0.0d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "Preparing to Dial"
+			subtitle: "Подготовка к иследованию Vault"
 			description: [
-				"&5Getting started in Vault Hunters takes a little bit of work, but you can get into your first Vault in an hour or two!"
+				"&5Чтобы начать играть в Vault Hunters, нужно немного потрудиться, но вы сможете попасть в свое первое хранилище уже через час или два!"
 				""
-				"&5The first thing's you'll be hunting for are Chromatic Iron and Vault Stone."
+				"&5В первую очередь вы будете искать Chromatic Iron и Vault Stone."
 				""
-				"&5Also keep an eye out for Diamonds, since you'll need some Obsidian as well."
+				"&5Также добудьте алмазами, ведь вам понадобится еще и обсидиан."
 				""
-				"&5You can find Chromatic Iron and Vault Stone two ways :"
+				"&5Chromatic Iron и Vault Stone можно найти двумя способами:"
 				""
-				"&51) Underground, both spawn around Y -30. Look in caves and tunnels, especially around lava."
+				"&51) Под землей, оба появляются около Y -30. Ищите в пещерах и туннелях, особенно вокруг лавы."
 				""
-				"&52) Above ground, ruined Vault Portals spawn occasionally. They are a good early source for both."
+				"&52) Над землей время от времени появляются разрушенные порталы Vault. Они являются хорошим ранним источником и того, и другого."
 				""
-				"&5You'll also want a handful of Vault Rocks, which you need to make Vault Crystals. Here's a couple extra."
+				"&5Вам также понадобится Vault Rocks, которые нужны для изготовления кристаллов Vault. Вот несколько дополнительных."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2E8B1B1D23FEAF8E"]
@@ -227,24 +226,24 @@
 			}]
 		}
 		{
-			title: "The Time of Your Life"
+			title: "Время твоей жизни"
 			icon: "botania:cosmetic_clock_eye"
 			x: 9.285714285714285d
 			y: 2.3392857142857117d
 			shape: "hexagon"
-			subtitle: "Tick Tock Tick Tock"
+			subtitle: "Тик-так Тик-так"
 			description: [
-				"&5Once you cross the arch into the first Hallway, the Vault Timer will start."
+				"&5Как только вы покинете комнату пройдя в коридор, запустится таймер Vault."
 				""
-				"&5You get 25 minutes, by default, to \"Complete\" a Vault. And by Complete, you should see a thing at the top of your view that talks about Elixir."
+				"&5По умолчанию у вас есть 25 минут, чтобы \"завершить\" хранилище. А под словом \"Завершить\" вы должны увидеть в верхней части вашего обзора надпись об Elixir."
 				""
-				"&5Every normal Vault has an \"Objective\", a goal for you to aim for to get bonus rewards. Some stuff you can only GET by completing a Vault successfully."
+				"&5В каждом обычном хранилище есть \"Задача\" - цель, к которой вы должны стремиться, чтобы получить бонусные награды. Некоторые вещи можно получить, только успешно завершив хранилище."
 				""
-				"&5Your first available objective is called Elixir Rush, or simply Elixir. Your goal is to fill up that bar with Elixir, which are these purple orbs that 'explode' out of enemies and chests."
+				"&5Первая доступная вам цель называется Elixir Rush, или просто Elixir. Ваша цель - заполнить бар эликсиром, который представляет собой фиолетовые шарики, \"взрывающиеся\" из врагов и сундуков."
 				""
-				"&5Each DIFFERENT type of monster, chest, and ore will have different amounts of Elixir. And it changes every time you enter a new Elixir Rush Vault."
+				"&5Каждый РАЗНЫЙ тип монстров, сундуков и руд будет содержать разное количество эликсира. И оно меняется каждый раз, когда вы попадаете в новое хранилище эликсира."
 				""
-				"&5So a Zombie might give you a lot of Elixir, while a Skeleton gives you little, for example. "
+				"&5Так, например, зомби может дать вам много эликсира, а скелет - мало. "
 			]
 			dependencies: ["249CEFD98AF2D014"]
 			hide: true
@@ -252,28 +251,28 @@
 			tasks: [{
 				id: "01B9FE8410D5956E"
 				type: "checkmark"
-				title: "Tasty Purple"
+				title: "Вкусный фиолетовый"
 			}]
 		}
 		{
-			title: "Loot Loot Loot Loot"
+			title: "Лут Лут Лут Лут Лут"
 			icon: "supplementaries:sack"
 			x: 11.0d
 			y: 1.5d
 			shape: "hexagon"
-			subtitle: "Fight! Loot! Loot! Fight!"
+			subtitle: "Сражайтесь! Лут! Лут! Сражайтесь!"
 			description: [
-				"&5If you haven't already, head on in. Every Vault is sectioned off into a grid of large Rooms, all connected with hallways in each cardinal direction."
+				"&5Если вы еще не сделали этого, отправляйтесь внутрь. Каждое хранилище разделено на сетку больших комнат, соединенных между собой коридорами в каждом кардинальном направлении."
 				""
-				"&5Except the Portal Room! This room only has one entrance, and you'll want to remember where it is!"
+				"&5Кроме комнаты с порталом! В этой комнате есть только один вход, и вы должны запомнить, где он находится!"
 				""
-				"&5Some Objectives can only be completed if you exit out of the Portal here. Or, if you can't complete the Objective, you'll need to get out via this Portal to not 'fail' the Vault."
+				"&5Некоторые задания можно выполнить, только выйдя из портала здесь. Или, если вы не можете выполнить задание, вам нужно будет выйти через этот портал, чтобы не \"погибнуть\" в хранилище."
 				""
-				"&5For now, failing will only damage your equipment a little bit. After Level 19 though...but we'll cover that later. "
+				"&5На данный момент неудача лишь немного повредит ваше снаряжение. Однако после 19-го уровня... но об этом мы расскажем позже. "
 				""
-				"&5In the upper right corner, you'll see a small minimap, which will fill out as you enter more rooms. This is the Vault Mapper, which will help track your path through the Vault."
+				"&5В правом верхнем углу вы увидите небольшую карту, которая будет заполняться по мере того, как вы будете входить в новые комнаты. Это Vault Mapper, который поможет проследить ваш путь через хранилище."
 				""
-				"&5Along with the map, I like to mark my path or interesting things with blocks that stand out. Take this Unobtanium, which you can duplicate by crafting it back into ingots then into blocks again. Try it!"
+				"&5Наряду с картой я люблю отмечать свой путь или интересные вещи блоками, которые выделяются. Возьмите эти блоки, которые можно продублировать, превратив его в слитки, а затем снова в блоки. Попробуйте!"
 			]
 			dependencies: ["1F2875BC889232AC"]
 			hide: true
@@ -290,7 +289,7 @@
 			}]
 		}
 		{
-			title: "Into a New World"
+			title: "В новый мир"
 			icon: {
 				id: "the_vault:vault_crystal"
 				Count: 1b
@@ -314,39 +313,39 @@
 			x: 5.5d
 			y: 2.75d
 			shape: "hexagon"
-			subtitle: "Abilities, Talents, and Expertise"
+			subtitle: "Способности, таланты и опыт"
 			description: [
-				"&5So a bit of terminology explanation, since it can be a bit confusing. There are three main things to know at the start : Abilities, Talents, and Expertise."
+				"&5Итак, немного терминологии, поскольку она может быть немного запутанной. В начале игры необходимо знать три основные вещи: способности, таланты и опыт."
 				""
-				"&5Abilities are your activatable skills. Throw a fireball, teleport, etc. For example, the Veinmine skill is only active while holding down the Vault Ability button when you mine something."
+				"&5Способности - это ваши активируемые умения. Бросить огненный шар, телепортироваться и т. д. Например, навык Veinmine активируется только при удержании кнопки Vault Ability, когда вы что-то добываете."
 				""
-				"&5Second type is Talents. These are passive buffs. More damage with certain abilities, faster mana regeneration, more damage at low health, etc."
+				"&5Второй тип - таланты. Это пассивные баффы. Больше урона при использовании определенных способностей, более быстрая регенерация маны, больше урона при низком уровне здоровья и т. д."
 				""
-				"&5Third is Expertise. These are similar to Talents, but tend to be a bit more specific. Raising your Fortune (how much you get from mining ores), or giving you a discount when buying from Vendor Pedestals."
+				"&5Третье - это Экспертиза. Они похожи на таланты, но, как правило, более специфичны. Например, повышают вашу удачу (сколько вы получаете от добычи руды) или дают скидку при покупке у торговцев."
 				""
-				"&5You only get one Expertise point every 5 levels, and it is expensive to reset them, so choose carefully!"
+				"&5Вы получаете только одно очко опыта каждые 5 уровней, а сбрасывать их дорого, поэтому выбирайте тщательно!"
 			]
 			dependencies: ["78B5BCD7C6C45779"]
 			id: "4A7F919339917ED3"
 			tasks: [{
 				id: "1C84C5A5A169E1FA"
 				type: "checkmark"
-				title: "Skills to Mine By"
+				title: "Навыки для добычи"
 			}]
 		}
 		{
-			title: "Ornately Equipped"
+			title: "Декоративно оснащенные"
 			icon: "the_vault:ornate_chest"
 			x: 7.25d
 			y: 4.75d
 			shape: "rsquare"
-			subtitle: "Get Power"
+			subtitle: "Получить энергию"
 			description: [
-				"&5Ornate Chests usually contain things related to Vault Gear."
+				"&5В богато украшенных сундуках обычно хранятся вещи, связанные с Vault Gear."
 				""
-				"&5Vault Weapons, Vault Armor... But not ALL Vault Gear..."
+				"&5Оружие хранилища, броня хранилища... Но не все оружие хранилища..."
 				""
-				"&5Also lots of your Focuses and things related to re-rolling and customizing your Vault Gear."
+				"&5Кроме того, здесь вы найдете множество Фокусов и вещей, связанных с повторным прокачиванием и улучшением предметов хранилища (Vault Gear)."
 			]
 			hide_dependency_lines: true
 			dependencies: ["5E574242513BE343"]
@@ -355,7 +354,7 @@
 			tasks: [{
 				id: "46553F28DFD27AB0"
 				type: "observation"
-				title: "Find an Ornate Chest"
+				title: "Найдите богато украшенный сундук"
 				icon: "sophisticatedstorage:ornate_chest"
 				timer: 0L
 				observe_type: 0
@@ -369,17 +368,17 @@
 			}]
 		}
 		{
-			title: "A Touch of Gilding"
+			title: "Прикосновение к позолоте"
 			x: 9.25d
 			y: 4.75d
 			shape: "rsquare"
-			subtitle: "Sparkling Loot"
+			subtitle: "Сверкающая добыча"
 			description: [
-				"&5Gilded Chests contain sparkling and luxurious loot."
+				"&5Позолоченные сундуки содержат сверкающие и роскошные предметы."
 				""
-				"&5It used to just be Vault Diamonds and Jewels, but luxury loot now includes Vault Plushies and Vault Sacks, but only after level 50."
+				"&5Раньше это были только алмазы и драгоценности из хранилища, но теперь к роскошному луту добавились плюшки из хранилища и мешки из хранилища, но только после 50-го уровня."
 				""
-				"&5These will be your main source of Jewels for Vault Tools, and many non-low level crafts require Vault Diamonds."
+				"&5Они станут вашим основным источником драгоценных камней для инструментов хранилища, а многие ремесла, не относящиеся к низкому уровню, требуют алмазов хранилища."
 			]
 			hide_dependency_lines: true
 			dependencies: ["5E574242513BE343"]
@@ -388,7 +387,7 @@
 			tasks: [{
 				id: "581BC33235669CC2"
 				type: "observation"
-				title: "Find a Gilded Chest"
+				title: "Найдите позолоченный сундук"
 				icon: "the_vault:gilded_chest"
 				timer: 0L
 				observe_type: 0
@@ -402,20 +401,20 @@
 			}]
 		}
 		{
-			title: "Full of Purple"
+			title: "Полный пурпур"
 			icon: "the_vault:vault_crate_elixir"
 			x: 5.5535714285714235d
 			y: 3.767857142857146d
 			shape: "circle"
-			subtitle: "Elixir Complete!"
+			subtitle: "Эликсир завершен!"
 			description: [
-				"&5Okay, you know the goal of the first Vault Objective. Once you've filled that bar, you'll need to find a Lodestone : A purple floating crystal. They don't spawn in every room, so if you see one try to remember where it is!"
+				"&5Итак, вы знаете цель первого задания в хранилище. Как только вы заполните бар, вам нужно будет найти Lodestone: фиолетовый плавающий кристалл. Они появляются не в каждой комнате, поэтому если вы увидите такой кристалл, постарайтесь запомнить, где он находится!"
 				""
-				"&5Also, only one person can use each Lodestone! Keep that in mind if you are running with friends!"
+				"&5Кроме того, каждый камень может использовать только один человек! Имейте это в виду, если вы бежите с друзьями!"
 				""
-				"&5You get a Completion Crate for completing the objective. These Crates contain a variety of rewards depending on what Objective it's from. You'll need to place it on the ground, then Sneak + Right Click to open it up."
+				"&5За выполнение цели вы получаете ящик Completion Crate. Эти ящики содержат различные награды в зависимости от цели. Вам нужно поставить его на землю, а затем нажать Sneak + Right Click, чтобы открыть его."
 				""
-				"&5Makes a neat sound when it pops open. And some items you'll need can only be found in these Completion Crates."
+				"&5При открытии он издает приятный звук. А некоторые предметы, которые вам понадобятся, можно найти только в этих ящиках завершения."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4342B9F453AD1F1B"]
@@ -434,20 +433,20 @@
 			}]
 		}
 		{
-			title: "Pieces of the Soul"
+			title: "Кусочки души"
 			icon: "the_vault:soul_shard"
 			x: 5.5d
 			y: 4.75d
 			shape: "rsquare"
-			subtitle: "Fighting Spirit"
+			subtitle: "Боевой дух"
 			description: [
-				"&5See that purple crystal looking thing you just got? Not the Elixir orb, that other thing. That's a Soul Shard."
+				"&5Видите фиолетовый кристалл, который вы только что получили? Не шар Эликсира, а другая штука. Это Осколок души."
 				""
-				"&5You get them from defeating enemies in the Vault. It's sort of... a piece of their fighting spirit. A reward for defeating them, basically."
+				"&5Вы получаете их, побеждая врагов в Хранилище. Это своего рода... частичка их боевого духа. В общем, награда за победу над ними."
 				""
-				"&5You'll want to collect as many of these as you can, they are very useful. You'll get a way to store them later, but for now treat it like any other piece of loot."
+				"&5Вы захотите собрать их как можно больше, они очень полезны. Позже у вас появится способ хранить их, а пока обращайтесь с ними как с любым другим лутом."
 				""
-				"&5Consider it Yet Another Form of Currency."
+				"&5Считайте, что это еще одна форма валюты."
 			]
 			hide_dependency_lines: true
 			dependencies: ["5E574242513BE343"]
@@ -466,16 +465,16 @@
 			}]
 		}
 		{
-			title: "A Live Chest"
+			title: "Живой сундук"
 			icon: "the_vault:living_chest"
 			x: 3.75d
 			y: 4.75d
 			shape: "rsquare"
-			subtitle: "Alive? Live? Life? Squishy!"
+			subtitle: "Живой? Живой? Живой? Сквиши!"
 			description: [
-				"&5Living Chests tend to contain a variety of things related to knowledge and research. "
+				"&5В \"Живых сундуках\" обычно хранятся различные вещи, связанные со знаниями и исследованиями. "
 				""
-				"&5Oh, and food!"
+				"&5О, и еда!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5E574242513BE343"]
@@ -484,7 +483,7 @@
 			tasks: [{
 				id: "2E58E45C6F54C018"
 				type: "observation"
-				title: "Find a Living Chest"
+				title: "Найдите жилой сундук"
 				icon: "sophisticatedstorage:living_chest"
 				timer: 0L
 				observe_type: 0
@@ -498,15 +497,15 @@
 			}]
 		}
 		{
-			title: "Common As Wood"
+			title: "Обычная древесина"
 			x: 1.75d
 			y: 4.75d
 			shape: "rsquare"
-			subtitle: "Knock On"
+			subtitle: "Постучаться"
 			description: [
-				"&5Wooden Chests will be the most common chest you find in the Vaults."
+				"&5Деревянные сундуки - самые распространенные сундуки, которые вы найдете в хранилищах."
 				""
-				"&5They'll also contain some of your most common crafting resources."
+				"&5Они также содержат некоторые из наиболее распространенных ресурсов для ремесла."
 			]
 			hide_dependency_lines: true
 			dependencies: ["5E574242513BE343"]
@@ -515,7 +514,7 @@
 			tasks: [{
 				id: "08D5E2871BC8ECD2"
 				type: "observation"
-				title: "Find a Wooden Chest"
+				title: "Найдите деревянный сундук"
 				icon: "the_vault:wooden_chest"
 				timer: 0L
 				observe_type: 0
@@ -529,21 +528,21 @@
 			}]
 		}
 		{
-			title: "The Price is Light"
+			title: "Цена легкая"
 			icon: "the_vault:vault_rock"
 			x: 1.25d
 			y: 2.8125d
 			shape: "gear"
-			subtitle: "Crystal Costs and You"
+			subtitle: "Стоимость кристаллов и вы"
 			description: [
 				""
-				"&5Right now, Crystals will cost you dirt. Almost literally. The price starts out really cheap, with easy to get materials."
+				"&5Сейчас кристаллы обойдутся вам в копеечку. Почти в буквальном смысле. Цена начинается очень дешево, с легкодоступных материалов."
 				""
-				"&5But as you make more and more Vault Crystals, and as you level, this cost will go up, as will the variety of materials you will need."
+				"&5Но по мере того, как вы будете зарабатывать все больше и больше кристаллов хранилища и повышать свой уровень, эта стоимость будет расти, как и разнообразие материалов, которые вам понадобятся."
 				""
-				"&5As well, as you Research and unlock mods (more on that later!), certain resources may be added to the possible list of items!"
+				"&5Кроме того, по мере исследования и разблокировки модов (подробнее об этом позже!) в список возможных предметов могут быть добавлены определенные ресурсы!"
 				""
-				"&5A big tip for early game : a good source for many crops and plant items is the Farming for Blockheads Market block!"
+				"&5Большой совет для ранней игры: хорошим источником многих культур и растительных предметов является рыночный блок \"Фермерство для блокхедов\"!"
 			]
 			dependencies: ["19220F4E56CB0A0F"]
 			size: 0.75d
@@ -554,20 +553,20 @@
 			}]
 		}
 		{
-			title: "Skill Levels and Skill OverLevels"
+			title: "Уровни умений и избыточные уровни умений"
 			icon: "rftoolsutility:speedplus_module"
 			x: 4.071428571428569d
 			y: 2.160714285714292d
 			shape: "gear"
-			subtitle: "HOW High Can We Go?!"
+			subtitle: "Как высоко мы можем подняться?!"
 			description: [
-				"&5Giving a look through the Skills and Talents, you can get a good idea of the type of builds you might want to try."
+				"&5Ознакомившись с умениями и талантами, вы сможете получить представление о том, какие билды вам стоит попробовать."
 				""
-				"&5Each Skill and Talent lists what every point spent in them will give you, but many have an extra section, or levels with a glitching icon at the start."
+				"&5В каждом навыке и таланте указано, что даст вам каждое потраченное на них очко, но многие из них имеют дополнительный раздел или уровни с глючащим значком в начале."
 				""
-				"&5These are called Overlevels. And you cannot reach Overlevels with Skill Points alone. "
+				"&5Эти уровни называются Overlevels (Сверхуровни). Их нельзя достичь используя только очки умений. "
 				""
-				"&5While fairly rare in the early levels, you'll eventually start finding Vault Gear with +Levels to these. With these, you can reach Overlevel in Skills and Talents."
+				"&5Хотя на первых уровнях они встречаются довольно редко, со временем вы начнете находить предметы Vault Gear с +Levels к ним. С их помощью вы сможете достичь Overlevel в навыках и талантах."
 			]
 			hide_dependency_lines: true
 			dependencies: ["78B5BCD7C6C45779"]
@@ -579,7 +578,7 @@
 			}]
 		}
 		{
-			title: "All The Time or None of the Time"
+			title: "Все время или ни одного раза"
 			icon: {
 				id: "the_vault:trinket"
 				Count: 1b
@@ -616,19 +615,19 @@
 			x: 9.714285714285715d
 			y: 2.8392857142857153d
 			shape: "gear"
-			subtitle: "Go Fast or Go Slow, You Choose"
+			subtitle: "Быстро или медленно - выбирать вам"
 			description: [
-				"If you are worried about the timer being a factor in how you enjoy running Vaults, you can change how much base time you have in a vault!"
+				"Если вы беспокоитесь о том, что таймер будет влиять на то, как вам нравится управлять хранилищами, вы можете изменить количество базового времени в хранилище!"
 				""
-				"If you do : "
+				"Если вы : "
 				"/gamerule vaultTimer X"
-				"You can replace the X with the number of minutes you would like the base timer to be! This changes the base time for EVERYONE on the server, keep in mind!"
+				"Вы можете заменить X на то количество минут, которое вы хотели бы видеть в базовом таймере! Это изменит базовое время для ВСЕХ на сервере, имейте в виду!"
 				""
-				"The default amount of time is 25. If you set it to 30, for example, it would be 30 minutes instead."
+				"По умолчанию используется значение 25. Если вы установите, например, значение 30, то время будет составлять 30 минут."
 				""
-				"If you set it to 0, however, there is NO Vault timer anymore!"
+				"Если вы установите значение 0, то таймера свода больше не будет!"
 				""
-				"Be careful though, there's a few issues with the system. Using a Pylon to add time might just insta-kill you."
+				"Но будьте осторожны, в системе есть несколько проблем. Использование пилона для добавления времени может просто мгновенно убить вас."
 			]
 			dependencies: ["1F2875BC889232AC"]
 			hide: true

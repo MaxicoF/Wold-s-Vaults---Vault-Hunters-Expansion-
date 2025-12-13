@@ -3,29 +3,29 @@
 	group: "1A78C6EA3A0ABFDA"
 	order_index: 3
 	filename: "3_getting_halfway_there"
-	title: "[3] Getting Halfway There"
+	title: "[3] На полпути к цели"
 	icon: "sophisticatedstorage:treasure_chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Hunt and Scavenge"
+			title: "Охотиться и добывать пищу"
 			x: -8.75d
 			y: 0.25d
 			shape: "hexagon"
-			subtitle: "Digging Through the Cabinets"
+			subtitle: "Копание в шкафах"
 			description: [
-				"&5Now that you are Level 20, a bunch of new things have opened up for you. The first of these is a new Objective type for the vaults : Scavenger."
+				"&5Теперь, когда вы достигли 20-го уровня, перед вами открылось множество новых возможностей. Первое из них - новый тип цели в хранилищах: \"Падальщик\"."
 				""
-				"&5Scavenger is probably one of the most difficult objectives, and its Completion Crate is the most...lucrative to match it."
+				"&5Scavenger - это, пожалуй, одна из самых сложных задач, а его Completion Crate - самая... прибыльная, чтобы соответствовать ей."
 				""
-				"&5Other than a blackout in Bingo at least."
+				"&5По крайней мере, кроме отключения в \"Бинго\"."
 				""
-				"&5About Scav Vaults! In these, you get a list of items you need to find in THAT vault specifically. They'll be at the top of your screen, with an icon of where to find them: from either chests, monsters, or ores."
+				"&5О хранилищах Скав! В них вы получаете список предметов, которые вам нужно найти именно в ЭТОМ хранилище. Они будут находиться в верхней части экрана с указанием, где их найти: из сундуков, монстров или руды."
 				""
-				"&5Get all of em, and find a Scavenger Altar (green glowing altar that spawns in most rooms). Right Click each stack to deposit it before the timer runs out."
+				"&5Соберите их все и найдите алтарь падальщиков (зеленый светящийся алтарь, который появляется в большинстве комнат). Щелкните правой кнопкой мыши на каждой стопке, чтобы положить ее на хранение до истечения таймера."
 				""
-				"&5If you don't get enough in time, you'll want to leave via the Portal before the time runs out."
+				"&5Если вы не успеете, вам нужно будет уйти через портал до истечения времени."
 			]
 			dependencies: ["148669A61C9EFBF4"]
 			hide: true
@@ -33,7 +33,7 @@
 			tasks: [{
 				id: "5E9808306C7C79CF"
 				type: "item"
-				title: "Any Scavenger Item"
+				title: "Любой предмет из падальщика"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -49,23 +49,23 @@
 			}]
 		}
 		{
-			title: "A Vendor Door"
+			title: "Дверь продавца"
 			x: -9.25d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Vendoor: Capitalism, Ho!"
+			subtitle: "Вендур: Капитализм, хо!"
 			description: [
-				"&5There are two kinds of doors that will start spawning in the Vaults after level 20."
+				"&5Есть два вида дверей, которые начнут появляться в хранилищах после 20-го уровня."
 				""
-				"&5Vendoors lead to special rooms that have Vendor Pedestals in them. These doors spawn on the walls inside Vault Rooms, usually on the bottom floor."
+				"&5Двери Vendoors ведут в специальные комнаты, в которых есть пьедесталы вендоров. Эти двери появляются на стенах внутри комнат хранилища, обычно на нижнем этаже."
 				""
-				"&5There's a variety of things the Vendor Pedestals can sell, some of them only findable in Vendoor rooms."
+				"&5В вендорских пьедесталах можно продавать самые разные вещи, некоторые из них можно найти только в вендорских комнатах."
 				""
-				"&5When purchsing something, the Pedestal will pull it directly from your Wallet or Pouches."
+				"&5Когда вы покупаете что-либо, пьедестал достает это прямо из вашего кошелька или карманов."
 				""
-				"&5Also, you can get a discount on Vendor Pedestals with a certain Expertise."
+				"&5Кроме того, вы можете получить скидку на пьедесталы вендоров с определенным опытом."
 				""
-				"&5Oh! Also, keep your eyes open. Some of the Vendor rooms have some hidden loot in them, or some neat blocks to build with."
+				"&5А еще смотрите в оба. В некоторых комнатах Вендора можно найти спрятанную добычу, а также аккуратные блоки для строительства."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
@@ -74,7 +74,7 @@
 			tasks: [{
 				id: "4947C4D29A9DB40A"
 				type: "observation"
-				title: "Find a Vendoor"
+				title: "Найти вендуру"
 				icon: "the_vault:vendor_door"
 				timer: 0L
 				observe_type: 0
@@ -88,23 +88,23 @@
 			}]
 		}
 		{
-			title: "The \"True\" Hunt"
+			title: "\"Настоящая\" охота"
 			x: -6.75d
 			y: 0.25d
 			shape: "pentagon"
-			subtitle: "Artifacts 5 by 5"
+			subtitle: "Артефакты 5 на 5"
 			description: [
-				"&5Now that you are level 20, you'll start finding Unidentified Artifacts in your Completion Crates."
+				"&5Теперь, когда вы достигли 20-го уровня, вы начнете находить неопознанные артефакты в ящиках для завершения игры."
 				""
-				"&5They'll also occasionally show up in the Black Market and other places."
+				"&5Они также иногда появляются на Черном рынке и в других местах."
 				""
-				"&5This is how to 'beat' Vault Hunters : Collect all 25 Artifacts, complete the 'tapestry', and defeat the final boss : The Herald."
+				"&5Вот как \"победить\" Vault Hunters: соберите все 25 артефактов, завершите \"гобелен\" и победите финального босса - Геральда."
 				""
-				"&5You can place the Artifact Tome down, and it'll project a 5x5 hologram on the wall behind it."
+				"&5Вы можете положить артефакт Tome, и он спроецирует голограмму 5x5 на стену позади него."
 				""
-				"&5When you fill in every Artifact piece, you're able to....well, I'll come to that later."
+				"&5Когда вы заполните все артефакты, вы сможете.... ну, об этом я расскажу позже."
 				""
-				"&5When you identify an Artifact, you have a higher chance of finding one you have not identified yet."
+				"&5Когда вы опознаете артефакт, у вас повышается шанс найти тот, который вы еще не опознали."
 			]
 			dependencies: ["1881243BF68F0FAC"]
 			hide: true
@@ -121,22 +121,22 @@
 			}]
 		}
 		{
-			title: "Infusing a Path"
+			title: "Насыщение пути"
 			icon: "the_vault:vault_catalyst_infused"
 			x: -6.25d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Determined Destiny"
+			subtitle: "Решительная судьба"
 			description: [
-				"&5At around level 24 you'll start finding Catalyst fragments in Gilded Chests."
+				"&5Примерно на 24-м уровне вы начнете находить фрагменты катализатора в позолоченных сундуках."
 				""
-				"&5Catalyst fragments can be combined, and then brought into a Catalyst Infusion Table and turned into something useful."
+				"&5Фрагменты катализатора можно объединить, а затем поместить на стол для вливания катализатора и превратить в нечто полезное."
 				""
-				"&5Infused Catalysts can be applied to your Vault Crystal (in the Crystal Workbench, of course), and can increase the amount of chests you get, or coins, or other useful things."
+				"&5Катализаторы можно применить к кристаллу хранилища (разумеется, в верстаке) и увеличить количество получаемых сундуков, монет и других полезных вещей."
 				""
-				"&5Note that you can only get Catalyst Fragments from Vaults that have 2 or less Gilded Catalysts on them."
+				"&5Обратите внимание, что фрагменты катализатора можно получить только из хранилищ, в которых находится 2 или менее позолоченных катализатора."
 				""
-				"&5You can also find Catalyst Boxes, which will give you a random Catalyst."
+				"&5Вы также можете найти ящики с катализаторами, которые дадут вам случайный катализатор."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -161,21 +161,21 @@
 			}]
 		}
 		{
-			title: "A Jump to 40"
+			title: "Прыжок на 40"
 			x: -4.75d
 			y: 0.25d
 			shape: "hexagon"
-			subtitle: "The Eyes of the Gods"
+			subtitle: "Глаза богов"
 			description: [
-				"&5Not much else unlocks for you in the Vaults until you hit 40."
+				"&5До достижения 40 лет в хранилищах не открывается почти ничего."
 				""
-				"&5It may be tempting to eat a bunch of Vault Burgers, yeh? I recommend resisting, level 50 is when things start to slow down even more."
+				"&5Может возникнуть соблазн съесть кучу бургеров Vault, да? Рекомендую не поддаваться, на 50-м уровне все начинает замедляться еще больше."
 				""
-				"&5Plus it's a good idea to gather as much Vault Resources as you can, and get some mods 'researched' and started up"
+				"&5Кроме того, неплохо было бы собрать как можно больше ресурсов хранилища, а также \"исследовать\" и запустить некоторые моды"
 				""
-				"&5Once you hit 40, you'll start finding God Altars in the Vaults. You've probably seen these already : they look like giant moai statue heads. Now these will have an Altar to one of the four Vault Gods."
+				"&5Когда вы достигнете 40 лет, в хранилищах вы начнете находить Алтари богов. Вы, наверное, уже видели их: они похожи на гигантские головы статуй моаи. Теперь в них будет алтарь одного из четырех богов хранилища."
 				""
-				"&5You can activate one of these Altars to get a timed challenge from that 'Vault God'. If ye complete it, you get a reward! If not, a punishment..."
+				"&5Вы можете активировать один из этих алтарей, чтобы получить задание на время от \"Бога хранилищ\". Если вы выполните его, то получите награду! Если нет - наказание..."
 			]
 			dependencies: ["2EC8B80AE1A271D5"]
 			hide: true
@@ -183,7 +183,7 @@
 			tasks: [{
 				id: "7106D78AD137F801"
 				type: "observation"
-				title: "Find a God Altar"
+				title: "Найдите алтарь Бога"
 				icon: {
 					id: "the_vault:god_altar"
 					Count: 1b
@@ -202,19 +202,19 @@
 			}]
 		}
 		{
-			title: "Warding Your Inventory"
+			title: "Охрана инвентаря"
 			x: -6.75d
 			y: -1.0d
 			shape: "rsquare"
 			subtitle: "KeepInventory=true"
 			description: [
-				"&5With death changing at level 20, you might be feeling a bit under geared, or unprepared, or just don't want to deal with losing your inventory, you can make a Warden's Vault Rock."
+				"&5Если на 20-м уровне вы чувствуете себя недостаточно подготовленным или просто не хотите терять свой инвентарь, вы можете сделать камень Warden's Vault."
 				""
-				"&5Ye place these on a Vault Altar like a normal Vault Rock, and pay the price for the crystal as usual. But the Vault Crystal ye get back will be marked with Afterlife."
+				"&5Поместите их на Алтарь Свода, как обычный камень Свода, и заплатите за кристалл, как обычно. Но кристалл хранилища, который вы получите обратно, будет помечен загробной жизнью."
 				""
-				"&5The Afterlife modifier lets you keep your inventory if you die or fail the Vault, but in return you can't modify it further in a Crystal Workbench."
+				"&5Модификатор Afterlife позволяет вам сохранить инвентарь, если вы умрете или провалитесь в хранилище, но взамен вы не сможете модифицировать его в Crystal Workbench."
 				""
-				"&5Oh, be warned, it also halves the experience you get from the Vault. Slows down you leveling a bit and gives you time to upgrade your gear."
+				"&5Учтите, что это также уменьшает вдвое опыт, получаемый в хранилище. Это немного замедляет повышение уровня и дает вам время на обновление снаряжения."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -232,17 +232,17 @@
 			}]
 		}
 		{
-			title: "Bigger Modifiers"
+			title: "Большие модификаторы"
 			x: -8.25d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Make My Modifier Grow!"
+			subtitle: "Заставьте мой модификатор расти!"
 			description: [
-				"&5Inside Dungeons in Vaults, you have a small chance of finding a Modifier Archive"
+				"&5В подземельях и хранилищах у вас есть небольшой шанс найти Архив модификаторов"
 				""
-				"&5The Modifier Archive will present you with a bunch of new Modifiers you can put on your Vault Gear with the Modification Table."
+				"&5В архиве модификаторов вы найдете множество новых модификаторов, которые вы можете наложить на свое снаряжение Vault Gear с помощью таблицы модификаций."
 				""
-				"&5You can only choose one, however."
+				"&5Однако вы можете выбрать только одну."
 			]
 			hide_dependency_lines: true
 			dependencies: ["0E520C1ADD9E71DF"]
@@ -264,19 +264,19 @@
 			}]
 		}
 		{
-			title: "My Little Modification"
+			title: "Моя маленькая модификация"
 			x: -4.25d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "I Asked For This"
+			subtitle: "Я просил об этом"
 			description: [
-				"&5The Modification Table is a useful thing to make early, as it lets you add a Prefix or Suffix of your choice to a piece of gear"
+				"&5Таблица модификаций - полезная вещь, которую нужно сделать заблаговременно, так как она позволяет добавить к предмету снаряжения префикс или суффикс по вашему выбору"
 				""
-				"&5The gear has to have a slot free, and you need to have the modifier unlocked to apply it."
+				"&5У снаряжения должен быть свободный слот, а чтобы применить модификатор, нужно его разблокировать."
 				""
-				"&5There's a couple ways to unlock modifiers, I'll go over those shortly. But do note that applying or removing a modifier has a cost."
+				"&5Есть несколько способов разблокировать модификаторы, о которых я расскажу вкратце. Но учтите, что применение или удаление модификатора имеет свою стоимость."
 				""
-				"&5It's usually some Vault Gold and materials. You can only add one Modifier, and remove said modifier. It'll be marked with a pickaxe in the gear stats, so you know what you've added can can remove."
+				"&5Обычно это немного золота из хранилища и материалы. Вы можете добавить только один модификатор и удалить его. Он будет отмечен киркой в статистике снаряжения, так что вы будете знать, что вы добавили, а что можете удалить."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -295,17 +295,17 @@
 			}]
 		}
 		{
-			title: "Potion Seller!"
+			title: "Продавец зелий!"
 			x: -9.25d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Give Me Your Strongest Potions"
+			subtitle: "Дайте мне ваши самые сильные зелья"
 			description: [
-				"&5In the larger Dungeons in Vaults, you have a chance of finding an Alchemy Archive."
+				"&5В больших подземельях в хранилищах у вас есть шанс найти архив алхимии."
 				""
-				"&5Using one gives you the choice between three new modifiers you can put on your Vault Potions."
+				"&5Используя один из них, вы можете выбрать один из трех новых модификаторов, которые вы можете наложить на зелья хранилища."
 				""
-				"&5These are usually fairly powerful, especially for specific builds."
+				"&5Обычно они довольно мощные, особенно для специфических билдов."
 			]
 			hide_dependency_lines: true
 			dependencies: ["0E520C1ADD9E71DF"]
@@ -327,7 +327,7 @@
 			}]
 		}
 		{
-			title: "Inscribing For Success"
+			title: "Надпись для успеха"
 			icon: {
 				id: "the_vault:inscription"
 				Count: 1b
@@ -349,17 +349,17 @@
 			x: -7.25d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Got Your Quill With You?"
+			subtitle: "У вас есть перо?"
 			description: [
-				"&5One thing you'll start finding in Living Chests, are Inscriptions and Inscription Pieces. Full Inscriptions will either be a basic Common Room, or one of the special Vault Rooms."
+				"&5В сундуках с живыми предметами вы начнете находить надписи и кусочки надписей. Полные надписи будут либо в базовой общей комнате, либо в одной из специальных комнат хранилища."
 				""
-				"&5Inscriptions can be added to your Vault Crystal (using a Crystal Workbench). If it isn't a Common Room, this will guarantee the room on the Inscription spawns in that Vault."
+				"&5Надписи можно добавить в кристалл хранилища (с помощью верстака). Если это не общая комната, то комната с надписью гарантированно появится в этом хранилище."
 				""
-				"&5When you enter the Vault, the Portal Room will have a map built into the floor. The different block in the center is your Portal Room. Each block around it is a room."
+				"&5Когда вы войдете в хранилище, в Портальной комнате будет карта, встроенная в пол. Другой блок в центре - это ваша Портальная комната. Каждый блок вокруг него - это комната."
 				""
-				"&5That be a treasure map, yarr! Showing ya to yer plunder, of course."
+				"&5Это карта сокровищ, Ярр! Конечно же, показываю, как добраться до добычи."
 				""
-				"&5Inscription Boxes can also be found that give you a random Inscription."
+				"&5Также можно найти ящики с надписями, которые дают вам случайную надпись."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -384,23 +384,23 @@
 			}]
 		}
 		{
-			title: "Death In Spirit"
+			title: "Смерть в духе"
 			x: -2.75d
 			y: -1.0d
 			shape: "rsquare"
-			subtitle: "Body Recovery"
+			subtitle: "Восстановление организма"
 			description: [
-				"&5If you've died in a Vault after hitting level 20, no doubt you've found most of your inventory missing and a ghost body spawning where you respawned as well."
+				"&5Если вы погибли в хранилище после достижения 20-го уровня, то, несомненно, обнаружили, что большая часть вашего инвентаря пропала, а на месте вашего возрождения появилось призрачное тело."
 				""
-				"&5That's your spirit, and if you want your inventory back, you'll be wanting to make a Spirit Extractor."
+				"&5Это ваш дух, и если вы хотите вернуть свой инвентарь, вам нужно будет сделать Извлекатель духа."
 				""
-				"&5You can put your spirit onto a Spirit Extractor, then pay the listed Vault Gold to get your items back."
+				"&5Вы можете поместить свой дух в Извлекатель духа, а затем заплатить указанное Золото хранилища, чтобы получить свои вещи обратно."
 				""
-				"&5The cost is determined primarily by what items and equipment you entered the Vault with."
+				"&5Стоимость определяется в первую очередь тем, с какими предметами и оборудованием вы вошли в хранилище."
 				""
-				"&5If you don't have enough Vault Gold, you can still retrieve your items, but you will go into debt with The Locker."
+				"&5Если у вас недостаточно золота Vault Gold, вы все равно сможете получить свои предметы, но при этом вы влезете в долги перед The Locker."
 				""
-				"&5The Locker will apply to all future Vaults you make until the Debt is paid. You will not gain any experience in Vaults with The Locker."
+				"&5Блокировка будет применяться ко всем будущим хранилищам, которые вы совершите, пока долг не будет погашен. Вы не получите никакого опыта в хранилищах с \"Локером\"."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -419,21 +419,21 @@
 			}]
 		}
 		{
-			title: "Baubles n' Trinkets"
+			title: "Безделушки и побрякушки"
 			x: -4.75d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Accessorize with Power"
+			subtitle: "Аксессуары с силой"
 			description: [
-				"&5A new piece of equipment that'll start showing up, albeit very rarely, is Vault Trinkets, and you can find them usually in Gilded Chests."
+				"&5Новый предмет, который начнет появляться, хотя и очень редко, - это Vault Trinkets, и найти их можно, как правило, в позолоченных сундуках."
 				""
-				"&5Sorta like magic rings or amulets. They give some sort of bonus or power in the Vaults when worn."
+				"&5Что-то вроде магических колец или амулетов. Они дают какой-то бонус или силу в Хранилищах, когда их носят."
 				""
-				"&5They are sorted into three colors : Blue, Red, and Green. To equip them, you'll need a Vault Trinket Pouch."
+				"&5Они сортируются на три цвета: синий, красный и зеленый. Чтобы экипировать их, вам понадобится Vault Trinket Pouch."
 				""
-				"&5And note they have limited uses. Each time you enter a Vault with a trinket, it consumes a use."
+				"&5И учтите, что у них ограниченное количество использований. Каждый раз, когда вы входите в хранилище с безделушкой, она расходует одно использование."
 				""
-				"&5Though many of them are useful outside of the vault too. That double jump one for example, or the wall climbing one."
+				"&5Хотя многие из них полезны и за пределами хранилища. Например, двойной прыжок или лазанье по стене."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -451,19 +451,19 @@
 			}]
 		}
 		{
-			title: "Loot n' Plunder"
+			title: "Грабь награбленное"
 			x: -6.75d
 			y: -2.0d
 			shape: "rsquare"
-			subtitle: "An Experience All It's Own"
+			subtitle: "Опыт, который можно получить самостоятельно"
 			description: [
-				"&5If you are finding yourself outpacing your equipment a bit too fast, you can make a Plunderer's Vault Rock."
+				"&5Если вы обнаружите, что ваше снаряжение слишком быстро заканчивается, вы можете сделать \"Камень-хранилище грабителя\"."
 				""
-				"&5Ye use it on a Vault Altar like a normal Vault Rock, and pay the price to turn it into a special Vault Crystal."
+				"&5Используйте его на Алтаре Свода, как обычный камень Свода, и заплатите цену, чтобы превратить его в особый кристалл Свода."
 				""
-				"&5This one can't be modified further, but the Plunder modifier changes a few things. First off, you get almost no experience in the Vault. Small things might give a bit of XP, but nowhere even close to what you would normally get."
+				"&5Этот пункт не подлежит дальнейшему изменению, но модификатор Plunder меняет несколько вещей. Во-первых, вы почти не получаете опыта в Хранилище. Небольшие вещи могут дать немного XP, но даже близко не сравнятся с тем, что вы получали бы обычно."
 				""
-				"&5It also boosts the loot you can find. A bit more loot in the chests, and a bigger percentage of Vault Ores being in Mining POIs and rooms."
+				"&5Это также увеличивает количество лута, который вы можете найти. Немного больше лута в сундуках, и больший процент руд хранилища находится в горных точках и комнатах."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -481,21 +481,21 @@
 			}]
 		}
 		{
-			title: "BOSS BATTLE!"
+			title: "БИТВА БОССОВ!"
 			x: -2.75d
 			y: 0.25d
 			shape: "pentagon"
-			subtitle: "Neighborhood or a City Boss?"
+			subtitle: "Сосед или городской босс?"
 			description: [
-				"&5At 50 there is another more normal Vault type that unlocks: Hunt the Runes."
+				"&5В 50 лет открывается еще один, более обычный тип хранилища: Охота на руны."
 				""
-				"&5These ones are a bit more difficult, as you will be fighting a big Boss type enemy. But to summon this boss, you'll need to find Runes."
+				"&5Они немного сложнее, так как вам предстоит сразиться с большим врагом типа Босс. Но чтобы вызвать этого босса, вам нужно будет найти Руны."
 				""
-				"&5Runes'll occasionally spawn in chests, and you'll need 5 of them to summon the boss. Each rune'll have a Positive and a Negative effect on them."
+				"&5Руны будут периодически появляться в сундуках, и вам понадобится 5 рун, чтобы вызвать босса. Каждая руна имеет положительный и отрицательный эффект."
 				""
-				"&5The positive effect'll usually be something like a rare piece of loot. But to get that, ye'll be adding some kind of ability to the Boss. Like a special attack, or more health, etc."
+				"&5Положительным эффектом обычно является что-то вроде редкого лута. Но чтобы получить его, нужно добавить боссу какую-то способность. Например, особую атаку, больше здоровья и т. д."
 				""
-				"&5You can get a good selection of Runes to build up the Boss how you want. Just take the Runes back to the first room, put them in the Pedestal, and then kill the boss. Easy peasy."
+				"&5Вы можете получить хороший набор рун, чтобы построить босса так, как вам нужно. Просто отнесите руны в первую комнату, положите их в пьедестал, а затем убейте босса. Легко и просто."
 			]
 			dependencies: ["1799D40CDE8D8F82"]
 			hide: true
@@ -503,7 +503,7 @@
 			tasks: [{
 				id: "6A7EEA330205C81B"
 				type: "item"
-				title: "Loot a Boss Rune"
+				title: "Разграбление руны босса"
 				item: "the_vault:boss_rune"
 			}]
 			rewards: [{
@@ -513,18 +513,18 @@
 			}]
 		}
 		{
-			title: "Zippity Zap"
+			title: "Зиппити Зап"
 			x: -2.75d
 			y: 2.5d
 			shape: "rsquare"
 			description: [
-				"&5You've definitely noticed that when you roll a new piece of gear, if it has a model you've not seen before, you'll get notified that you've \"unlocked\" it."
+				"&5Вы наверняка заметили, что при прокачке нового предмета, если в нем есть модель, которую вы раньше не видели, вы получите уведомление о том, что \"разблокировали\" ее."
 				""
-				"&5These are Transmogs, and you can change the model of a piece of gear to a different one you have unlocked."
+				"&5Это трансмоги, и вы можете изменить модель предмета снаряжения на другую, которую вы разблокировали."
 				""
-				"&5The neat thing is you can unlock special Transmogs in various ways : researching mods, doing cool things in the Vault, etc."
+				"&5Самое приятное, что вы можете разблокировать особые Трансмоги различными способами: исследуя моды, делая крутые вещи в Хранилище и т.д."
 				""
-				"&5As well, each time you roll a new piece of gear, you have a higher chance of unlocking a Transmog you haven't obtained yet."
+				"&5Кроме того, каждый раз, когда вы получаете новый предмет экипировки, у вас повышается шанс разблокировать трансмог, который вы еще не получили."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -543,21 +543,21 @@
 			}]
 		}
 		{
-			title: "God Affinity and Reputation"
+			title: "Близость к богу и репутация"
 			x: -5.25d
 			y: -1.0d
 			shape: "rsquare"
-			subtitle: "The Gods are Fickle"
+			subtitle: "Боги переменчивы"
 			description: [
-				"&5So it's important to understand the difference between Affinity and Reputation when it comes to the Gods."
+				"&5Поэтому важно понимать разницу между аффинити и репутацией, когда речь идет о богах."
 				""
-				"&5Affinity is, hm... basicaly showing favor to one of the four Vault Gods : Idona, Wendarr, Tenos, and Velara."
+				"&5Сродство - это, хм... в основном, проявление благосклонности к одному из четырех богов хранилищ: Идоне, Вендарру, Теносу и Веларе."
 				""
-				"&5The easiest way to do that is to wear one of the God Charms. There's also an Expertise to help with this."
+				"&5Самый простой способ сделать это - надеть один из амулетов Бога. В этом вам также поможет \"Экспертиза\"."
 				""
-				"&5Next is Reputation. You see, when you complete a God Altar's challenge, you get a buff and sometimes a reward. And a chance at a Reputation point with that God."
+				"&5Следующим пунктом является репутация. Видите ли, когда вы выполняете задание Алтаря Бога, вы получаете бафф, а иногда и награду. А также шанс получить очки репутации с этим богом."
 				""
-				"&5The higher your Affinity, the bigger chance of gaining Reputation. Note that there's a max amount of Reputation you can have with every Vault God."
+				"&5Чем выше ваше сродство, тем больше шанс получить репутацию. Обратите внимание, что существует максимальное количество репутации, которое вы можете иметь с каждым Богом хранилища."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1799D40CDE8D8F82"]
@@ -583,15 +583,15 @@
 			}]
 		}
 		{
-			title: "Many Builds"
+			title: "Множество построек"
 			x: -5.25d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "Swap Like Gear"
+			subtitle: "Обмен как шестеренки"
 			description: [
-				"&5If you want to play around with different builds, the Skill Altar is a must."
+				"&5Если вы хотите поиграть с разными билдами, Алтарь умений просто необходим."
 				""
-				"&5It lets you save your Skill and Talents chosen and recall them later, for much less cost of Vault Gold."
+				"&5Он позволяет сохранять выбранные умения и таланты и вызывать их позже, причем за гораздо меньшую стоимость золота хранилища."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -610,20 +610,20 @@
 			}]
 		}
 		{
-			title: "50, Halfway Down"
+			title: "50, Полпути вниз"
 			icon: "the_vault:neuralizer"
 			x: -0.25d
 			y: 0.25d
 			shape: "pentagon"
-			subtitle: "Or Halfway Up?"
+			subtitle: "Или на полпути вверх?"
 			description: [
-				"&5Next up is level 50."
+				"&5Следующий уровень - 50-й."
 				""
-				"&5A big stepping stone, aye. A lot opens up to ya. New vaults, new mechanics, new loot, etc."
+				"&5Большой шаг вперед, да. Перед вами откроется много нового. Новые хранилища, новые механики, новый лут и т.д."
 				""
-				"&5Especially that last one. More treasures."
+				"&5Особенно последняя. Больше сокровищ."
 				""
-				"&5The built-in Vault Hunters quests will give you a Neuralizer. Which lets you reset your Expertise points and reallocate them. They are very expensive, so save it until you really want to re-spec your Expertise."
+				"&5Встроенные квесты Vault Hunters дадут вам Neuralizer. Он позволяет сбрасывать очки опыта и перераспределять их. Они очень дорогие, так что приберегите их до тех пор, пока вам действительно не понадобится перераспределить очки опыта."
 			]
 			dependencies: ["4D05DB966C33B676"]
 			hide: true
@@ -641,15 +641,15 @@
 			}]
 		}
 		{
-			title: "A Suit For Every Occasion"
+			title: "Костюм на все случаи жизни"
 			x: -2.75d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Where's My Super Suit?!"
+			subtitle: "Где мой суперкостюм?!"
 			description: [
-				"&5Given you find a lot of Vault Gear, some of it is bound to be really good, but not fit into your current build."
+				"&5Учитывая, что вы находите много Vault Gear, некоторые из них могут быть действительно хорошими, но не вписываться в ваш текущий билд."
 				""
-				"&5This Wardrobe lets you not only store a Gear loadout and instantly swap to it, it also lets you store and swap your main hotbar too."
+				"&5В этом гардеробе вы можете хранить не только инвентарь Gear и мгновенно переключаться на него, но и основной хотбар."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -668,17 +668,17 @@
 			}]
 		}
 		{
-			title: "A Bit Chaotic"
+			title: "Немного хаотично"
 			x: -1.25d
 			y: 3.5d
 			shape: "rsquare"
-			subtitle: "My Focus is Wobbly"
+			subtitle: "Мой фокус шатается"
 			description: [
-				"&5Each Prefix or Suffix on a piece of gear also rolls a Tier. Higher tiers effect the range that it can roll, with higher tiers being higher (of course)."
+				"&5Каждый префикс или суффикс на предмете снаряжения также имеет свой уровень. Более высокие уровни влияют на диапазон, который он может прокатить, причем более высокие уровни, разумеется, выше."
 				""
-				"&5Using a Chaotic Focus means one of them will reroll their tier only, and gives it a chance to be higher."
+				"&5Использование Хаотического фокуса означает, что один из них перебросит только свой уровень и даст ему шанс быть выше."
 				""
-				"&5Good if you got a bunch of Prefix and Suffixes you want, but some of them rolled low in their ranges."
+				"&5Хорошо, если у вас есть куча префиксов и суффиксов, которые вам нужны, но некоторые из них находятся низко в своих диапазонах."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -696,19 +696,19 @@
 			}]
 		}
 		{
-			title: "Fundamentally Better"
+			title: "Фундаментально лучше"
 			x: -0.25d
 			y: 3.5d
 			shape: "rsquare"
-			subtitle: "Ex Bawx"
+			subtitle: "Экс Баукс"
 			description: [
-				"&5The last section of stats for a piece of gear I haven't fully explained are the Implicits."
+				"&5Последний раздел статов для снаряжения, который я не до конца объяснил, - это имплициты."
 				""
-				"&5These are the things like Attack Damage, Range, and some special abilities only roll as implicits."
+				"&5Такие вещи, как урон атаки, дальность и некоторые особые способности, прокатываются только как имплициты."
 				""
-				"&5Like Endergized for Magnets, or Channeling for Tridents."
+				"&5Например, Endergized для магнитов или Channeling для тридентов."
 				""
-				"&5The Fundamental Focus rerolls all Implicits, giving you a chance at a higher roll, and some additional abilities."
+				"&5Фундаментальный фокус делает повторный бросок всех имплицитов, давая вам шанс на более высокий бросок и некоторые дополнительные способности."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -726,17 +726,17 @@
 			}]
 		}
 		{
-			title: "Before and After"
+			title: "До и после"
 			x: -1.25d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Wax On, Wax Off"
+			subtitle: "Нанести воск, снять воск"
 			description: [
-				"&5You should be getting some new Focus' to use in the Vault Artisan Station. Like the Waxing and Waning Foci."
+				"&5Вы должны получить несколько новых фокусов, которые можно будет использовать на станции ремесленников в хранилище. Например, Восковой и Угасающий очаги."
 				""
-				"&5Foci? Focuses? Can never get that straight. But yeah, while the Wild Focus lets you reroll all Prefixes AND Suffixes, these two will let you reroll one or the other."
+				"&5Фокусы? Фокусы? Никогда не могу разобраться. Но да, если Дикий Фокус позволяет перебросить все префиксы и суффиксы, то эти два позволят вам перебросить один или другой."
 				""
-				"&5Really helps you narrow down a piece of gear to work with your build."
+				"&5Очень помогает выбрать оборудование, подходящее для вашей сборки."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -768,23 +768,23 @@
 			]
 		}
 		{
-			title: "Spooky Door"
+			title: "Зловещая дверь"
 			x: -8.25d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Dungeons of Dread, and More"
+			subtitle: "Dungeons of Dread и многое другое"
 			description: [
-				"&5There are two kinds of doors that will start spawning in the Vaults after level 20."
+				"&5Есть два вида дверей, которые начнут появляться в хранилищах после 20-го уровня."
 				""
-				"&5Dungeon doors can spawn in the walls of Vault Rooms, usually on the bottom floor. They will have the symbol of a specific monster type on them."
+				"&5Двери в подземелье могут появляться в стенах комнат хранилища, обычно на нижнем этаже. На них будет изображен символ определенного типа монстра."
 				""
-				"&5When you open a Dungeon Door, a popup will tell you what difficulty the creatures that spawn inside are."
+				"&5Когда вы открываете дверь в подземелье, появляется всплывающее окно, сообщающее вам, какой сложности существа, появляющиеся внутри."
 				""
-				"&5These range from Easy, Normal, Difficult, Challenging, and Impossible."
+				"&5Они варьируются от \"Легко\", \"Нормально\", \"Сложно\", \"Задача\" и \"Невозможно\"."
 				""
-				"&5Each Dungeon spawns either Coin Piles or special Barrels, which are alternate versions of Chests, that all act like Wooden Chests. But to break them properly requires the proper tool Affinity."
+				"&5В каждом подземелье появляются либо кучи монет, либо специальные бочки, которые являются альтернативными версиями сундуков и действуют как деревянные сундуки. Но чтобы правильно их разбить, требуется соответствующий инструмент Affinity."
 				""
-				"&5At the end of the Dungeon, it will spawn a special Champion, the boss of the dungeon. It's usually tankier than normal Champions, and drops some decent loot."
+				"&5В конце подземелья появится особый чемпион - босс подземелья. Обычно он более живуч, чем обычные чемпионы, и с него выпадает приличный лут."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
@@ -793,7 +793,7 @@
 			tasks: [{
 				id: "3E8CDE870BD93874"
 				type: "observation"
-				title: "Find a Dungeon Door"
+				title: "Найти дверь в подземелье"
 				icon: {
 					id: "the_vault:dungeon_door"
 					Count: 1b
@@ -813,23 +813,23 @@
 			}]
 		}
 		{
-			title: "A Vault Celebration"
+			title: "Праздник в хранилище"
 			x: -6.25d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "Obvious, It's a Lie"
+			subtitle: "Очевидно, что это ложь"
 			description: [
-				"&5Keep on the lookout for one of these special Vault Rocks. It's for making a special vault called a Cake Vault."
+				"&5Ищите один из этих особых камней хранилища. Он нужен для создания особого хранилища, которое называется \"Хранилище тортов\"."
 				""
-				"&5Cake Vaults are unique. The objective is to find as many Cakes as you can. The Rooms in this Vault only have one path : a spiral outward."
+				"&5Хранилища тортов уникальны. Цель - найти как можно больше тортов. Комнаты в этом хранилище имеют только один путь: по спирали наружу."
 				""
-				"&5Each room has only one Cake, somewhere. As you get closer to it, your vision will change."
+				"&5В каждой комнате есть только один Торт, который находится где-то рядом. По мере приближения к нему ваше видение будет меняться."
 				""
-				"&5Also in each room is a Crake Pedestal. Don't interact with it until you are ready to leave!"
+				"&5Также в каждой комнате находится пьедестал Крейка. Не взаимодействуйте с ним, пока не будете готовы уйти!"
 				""
-				"&5See, each Cake you find adds modifiers to the Vault. Usually good and bad. More loot, but tougher enemies."
+				"&5Каждый найденный торт добавляет модификаторы в хранилище. Как правило, хорошие и плохие. Больше лута, но и более жестокие враги."
 				""
-				"&5A good strategy is to go as far as ye can before the enemies get TOO deadly, then loop back and loot before leaving."
+				"&5Хорошая стратегия - пройти как можно дальше, пока враги не стали слишком смертоносными, а затем вернуться и награбить перед уходом."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -847,21 +847,21 @@
 			}]
 		}
 		{
-			title: "A Little Bit of Chaos"
+			title: "Немного хаоса"
 			x: -7.25d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "Maybe More Than a Little"
+			subtitle: "Может быть, даже больше, чем немного"
 			description: [
-				"&5If you see this Chaotic Vault Rock for sale in a Vendoor or the Black Market, I highly recommend picking it up!"
+				"&5Если вы увидите этот камень Хаотического свода в продаже в вендоре или на черном рынке, я настоятельно рекомендую купить его!"
 				""
-				"&5This is a special Vault Theme where it jumbles up rooms from all the other Themes into it."
+				"&5Это специальная тема Vault, в которой собраны комнаты из всех остальных тем."
 				""
-				"&5This includes more dangerous themes like Nether or Void themes. As well as the monsters from them."
+				"&5Это касается и более опасных тем, таких как темы Nether или Void. А также монстров из них."
 				""
-				"&5The chests at points of interest are random too!"
+				"&5Сундуки в точках интереса тоже случайны!"
 				""
-				"&5See? Chaos."
+				"&5Видите? Хаос."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -879,19 +879,19 @@
 			}]
 		}
 		{
-			title: "Supremely Strong Anvil"
+			title: "Очень прочная наковальня"
 			x: -2.25d
 			y: -2.0d
 			shape: "rsquare"
-			subtitle: "Fairly Looney, a Little Tooney"
+			subtitle: "Вполне луни, немного туни"
 			description: [
-				"&5Well, this thing has seen better days. This is the Vault Anvil."
+				"&5Ну, эта штука пережила лучшие времена. Это наковальня хранилища."
 				""
-				"&5Before some of these special workstations were added, you had to apply special items to a Crystal with an Anvil."
+				"&5До того, как были добавлены некоторые из этих специальных рабочих мест, вам приходилось применять специальные предметы к кристаллу с помощью наковальни."
 				""
-				"&5You would go through Anvils like sliced bread sometimes. So the devs implemented a new item: The Vault Anvil."
+				"&5Иногда вы проходили через наковальни, как через нарезанный хлеб. Поэтому разработчики ввели новый предмет: Наковальня хранилища."
 				""
-				"&5This Anvil won't take any damage when used, basically."
+				"&5Эта наковальня не получает никакого урона при использовании."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
@@ -909,17 +909,17 @@
 			}]
 		}
 		{
-			title: "Box of Mod Goodness"
+			title: "Коробка с модами"
 			x: -7.25d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "What's In the Box? Well, What Do You Know?"
+			subtitle: "Что в коробке? Что вы знаете?"
 			description: [
-				"&5Keep an eye out for these little blue boxes. They are called Mod Boxes, and they contain, well..."
+				"&5Следите за этими маленькими синими коробочками. Они называются Mod Boxes, и в них содержится..."
 				""
-				"&5...different things, depending on what mods you have Researched so far."
+				"&5...разные вещи, в зависимости от того, какие моды вы исследовали до сих пор."
 				""
-				"&5If you haven't Researched any Mods, the Mod Box will drop Knowledge Shards, to get you closer to Researching a mod. Once you've Researched certain mods, the Mod Box only drops certain items from those Mods."
+				"&5Если вы не исследовали ни одного мода, из ящика будут выпадать осколки знаний, чтобы приблизить вас к исследованию мода. Когда вы исследуете определенные моды, из ящика будут выпадать только определенные предметы из этих модов."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -937,17 +937,17 @@
 			}]
 		}
 		{
-			title: "Monsterous View"
+			title: "Чудовищный вид"
 			x: -2.75d
 			y: 3.5d
 			shape: "rsquare"
-			subtitle: "We Got Holograms?!"
+			subtitle: "У нас есть голограммы?!"
 			description: [
-				"&5The Animatrix is a fun little block. Not super useful, but a good deco block."
+				"&5Аниматрица - забавный маленький блок. Не очень полезный, но хороший блок для деко."
 				""
-				"&5You can take one of the Spawn Eggs you get from the Mystery Eggs and put it into this."
+				"&5Вы можете взять одно из яиц спавна, полученных из таинственных яиц, и поместить его в это яйцо."
 				""
-				"&5It'll display the creature above the Animatrix. Basically a hologram. Not super useful, like I said, but nice decoratively."
+				"&5Он будет отображать существо над Аниматрицей. По сути, голограмма. Не очень полезно, как я уже сказал, но хорошо украшает."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -965,15 +965,15 @@
 			}]
 		}
 		{
-			title: "Dungeon Vision"
+			title: "Видение подземелья"
 			x: -9.25d
 			y: -1.0d
 			shape: "rsquare"
-			subtitle: "I See a Challenge!"
+			subtitle: "Я вижу вызов!"
 			description: [
-				"&5The Dungeon Capstone can be added to a Vault Crystal in the Crystal Workbench."
+				"&5Камень подземелья можно добавить к кристаллу хранилища в верстаке кристаллов."
 				""
-				"&5This'll cause Dungeon Doors to highlight while you are in that Vault. Very helpful."
+				"&5Это заставит двери подземелья подсвечиваться, пока вы находитесь в этом хранилище. Очень полезно."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -991,17 +991,17 @@
 			}]
 		}
 		{
-			title: "Seeking Relics"
+			title: "В поисках реликвий"
 			x: -9.25d
 			y: -2.0d
 			shape: "rsquare"
-			subtitle: "Guaranteed Parchment"
+			subtitle: "Гарантированный пергамент"
 			description: [
-				"&5The Prosperous Capstone can be added to a Vault Crystal to guarantee that the Completion Crate has an Artifact in it."
+				"&5Процветающий камень можно добавить к кристаллу хранилища, чтобы гарантировать наличие артефакта в ящике завершения."
 				""
-				"&5Cavaet being, you know, completing the Vault in the first place."
+				"&5Кавет - это, знаете ли, завершение работы над Хранилищем."
 				""
-				"&5You could always add a Seal for an Objective you are good at completing."
+				"&5Вы всегда можете добавить печать за цель, которую вы хорошо выполняете."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -1019,17 +1019,17 @@
 			}]
 		}
 		{
-			title: "Phenomenal Power!"
+			title: "Феноменальная мощь!"
 			x: -8.25d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "Itty Bitty Health Bar"
+			subtitle: "Батончик для здоровья Itty Bitty"
 			description: [
-				"&5The Frenzy Capstone adds a curse called Frenzy to your Vault."
+				"&5Камень Frenzy Capstone добавляет в ваше хранилище проклятие под названием Frenzy."
 				""
-				"&5This is a bit of a double edged sword. The mobs get much stronger, much faster, much deadlier."
+				"&5Это немного обоюдоострый меч. Мобы становятся намного сильнее, намного быстрее, намного смертоноснее."
 				""
-				"&5But their health plumets to 1 HP... usually."
+				"&5Но их здоровье падает до 1 HP... обычно."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -1047,15 +1047,15 @@
 			}]
 		}
 		{
-			title: "Pylon View"
+			title: "Вид на пилон"
 			x: -8.25d
 			y: -2.0d
 			shape: "rsquare"
-			subtitle: "Need Additional Pylons"
+			subtitle: "Нужны дополнительные пилоны"
 			description: [
-				"&5The Pylon Capstone will cause all Pylons to highlight in the Vault."
+				"&5Камень Пилона заставит все пилоны засветиться в хранилище."
 				""
-				"&5Pylons are those little buffing crystals scattered around. The ones that add strength, or vault time, etc."
+				"&5Пилоны - это маленькие кристаллы, разбросанные вокруг. Те, которые добавляют силу, время хранилища и т.д."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -1073,15 +1073,15 @@
 			}]
 		}
 		{
-			title: "Cap of the Gods"
+			title: "Шапка богов"
 			x: -5.25d
 			y: -2.0d
 			shape: "rsquare"
-			subtitle: "Pray to My Altar"
+			subtitle: "Молитесь к моему алтарю"
 			description: [
-				"&5When you complete a God Altar, you will get a bonus modifier to the rest of that Vault, and the chance at gaining reputation with that God."
+				"&5Когда вы завершите алтарь бога, вы получите бонусный модификатор к остальным предметам этого хранилища и шанс получить репутацию с этим богом."
 				""
-				"&5But if you remember where that God Altar was, you can return to it to get a prize as well."
+				"&5Но если вы помните, где находился Алтарь Бога, вы можете вернуться к нему и получить приз."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1799D40CDE8D8F82"]
@@ -1090,7 +1090,7 @@
 			tasks: [{
 				id: "60F0944ABB06D46A"
 				type: "item"
-				title: "Any God Offering"
+				title: "Любое приношение Бога"
 				item: "the_vault:god_offering"
 			}]
 			rewards: [{
@@ -1100,17 +1100,17 @@
 			}]
 		}
 		{
-			title: "Vendoor Vision"
+			title: "Вендур Вижн"
 			x: -8.25d
 			y: -1.0d
 			shape: "rsquare"
 			subtitle: "Sale-o-vision"
 			description: [
-				"&5The Merchant Capstone can be added to Vault Crystal to get all Vendoors to highlight while you are in that Vault."
+				"&5Камень торговца можно добавить в Кристалл хранилища, чтобы все вендоры высветились, пока вы находитесь в этом хранилище."
 				""
-				"&5Just be sure you bring plenty of Vault coins. Though many of the Vendoor rooms have some neat things to find without purchasing anything."
+				"&5Только не забудьте взять с собой побольше монет Vault. Хотя во многих комнатах Вендура можно найти несколько интересных вещей, не покупая ничего."
 				""
-				"&5Be sure to look around before leaving. Especially under staircases."
+				"&5Перед уходом обязательно осмотритесь. Особенно под лестницами."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
@@ -1128,17 +1128,17 @@
 			}]
 		}
 		{
-			title: "Enchanted Testing"
+			title: "Зачарованные испытания"
 			x: -9.25d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "Magic in the Air"
+			subtitle: "Магия в воздухе"
 			description: [
-				"&5There is a whole range of Capstones, including some that throw a bit of fun into your Vault. Like the Enchanted Capstone."
+				"&5Существует целый ряд камней, в том числе и такие, которые привносят в ваше хранилище немного веселья. Например, Зачарованный камень."
 				""
-				"&5So, sometimes when you start a Vault, you'll see some special modifiers activate. Like the Raw Vaults always have specific modifiers, for example."
+				"&5Так, иногда при запуске хранилища активируются особые модификаторы. Например, в Сырьевых хранилищах всегда есть особые модификаторы."
 				""
-				"&5With the Enchanted Capstone, it'll add a custom modifier: Enchanted. Every so often some sort of event will happen while you run that Vault. If this works, I have an idea brewing..."
+				"&5Зачарованный камень добавляет пользовательский модификатор: Enchanted. Время от времени во время работы этого хранилища будет происходить какое-нибудь событие. Если это сработает, у меня родится идея..."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
@@ -1160,15 +1160,15 @@
 			x: -8.75d
 			y: 3.5d
 			shape: "rsquare"
-			subtitle: "Sight Beyond Sight"
+			subtitle: "Зрение за зрением"
 			description: [
-				"&5The All-Seeing Eye Capstone adds the All Seeing Eye modifier to your Vault."
+				"&5Камень \"Всевидящее око\" добавляет модификатор \"Всевидящее око\" к вашему хранилищу."
 				""
-				"&5All chests, all doors, and all Objective blocks (like the Lodestones or Braziers) will be visible in the same room. And uh....maybe further..."
+				"&5В одной комнате будут видны все сундуки, все двери и все блоки целей (например, Лодестоны или Мангалы). И, возможно, дальше..."
 				""
-				"&5That's...a lot of things to see at once. I'm getting a headache thinking about it. I suggest being careful with this one, since the constant sparkling lights might mess with your eyes."
+				"&5Это... много вещей, которые нужно увидеть за один раз. У меня уже голова болит от одной мысли об этом. Советую быть осторожнее, так как постоянный сверкающий свет может испортить вам глаза."
 				""
-				"&5Not to mention, it may be hard to pick out what you want from the visual noise."
+				"&5Не говоря уже о том, что из визуального шума может быть трудно выбрать то, что вам нужно."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -1186,19 +1186,19 @@
 			}]
 		}
 		{
-			title: "Godly Shaped Rocks"
+			title: "Камни в форме бога"
 			x: -4.25d
 			y: -2.0d
 			shape: "rsquare"
-			subtitle: "One For Each God"
+			subtitle: "По одному для каждого бога"
 			description: [
-				"&5With a God Offering and the accompanying theme Augment, you can create a special God item that works like a Vault Rock. "
+				"&5С помощью Приношения Бога и сопутствующего тематического дополнения вы можете создать особый предмет Бога, который работает как камень хранилища. "
 				""
-				"&5This should help you gain Reputation with specific Gods faster, to build out your Divine Paradox better."
+				"&5Это поможет вам быстрее завоевать репутацию у конкретных богов, чтобы лучше развивать свой Божественный парадокс."
 				""
-				"&5So, make one of these four special God items, and put them onto your Vault Altar like any other Vault Rock. Completing the Vault Crystal will get you a special Zealot Vault."
+				"&5Итак, создайте один из этих четырех особых предметов бога и поместите их на алтарь хранилища, как и любой другой камень хранилища. Завершив Кристалл хранилища, вы получите особое хранилище зилотов."
 				""
-				"&5The whole Vault will be themed to that God, and all God Altars you find will be for that God only."
+				"&5Все хранилище будет посвящено этому богу, и все алтари бога, которые вы найдете, будут предназначены только для него."
 			]
 			hide_dependency_lines: true
 			dependencies: ["4606E122BFBD99C6"]
@@ -1233,15 +1233,15 @@
 			}]
 		}
 		{
-			title: "A Little Eccentric"
+			title: "Немного эксцентрики"
 			x: -0.25d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "In Other Words : Unusual (Affectionate)"
+			subtitle: "Другими словами: Необычный (ласковый)"
 			description: [
-				"&5Another new kind of Focus for your Vault Artisan Station : the Eccentric Focus."
+				"&5Еще один новый вид фокуса для вашей станции ремесленников в хранилище: эксцентричный фокус."
 				""
-				"&5This Focus lets you add an Unusual modifier. These are modifiers ye can't usually get on that piece of gear."
+				"&5Этот фокус позволяет добавить модификатор \"Необычный\". Это модификаторы, которые вы обычно не можете получить на этом предмете снаряжения."
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -1259,17 +1259,17 @@
 			}]
 		}
 		{
-			title: "Hammering Out Some Accessories"
+			title: "Изготовление аксессуаров"
 			x: -4.25d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Baubled Preferences"
+			subtitle: "Предпочтения в бабочках"
 			description: [
-				"&5Once you start collecting Trinkets, you'll eventually find ones you have no use for, or duplicates of a trinket you use sparingly."
+				"&5Начав собирать безделушки, вы в конце концов обнаружите те, которые вам не нужны, или дубликаты безделушек, которые вы используете в редких случаях."
 				""
-				"&5You can recycle these Trinkets in a Vault Recycler, and you'll sometimes get back Vault Trinket Scrap."
+				"&5Вы можете переработать эти тринкеты в Vault Recycler, и иногда вы получите обратно Vault Trinket Scrap."
 				""
-				"&5Bring 'em to this Vault Trinket Forge, and combined with some other materials, you can forge a new Trinket from the ones you've already unlocked."
+				"&5Принесите их в эту кузницу, и в сочетании с другими материалами вы сможете выковать новый тринкет из тех, что вы уже разблокировали."
 			]
 			hide_dependency_lines: true
 			dependencies: ["59D6A7EF6A2A5123"]
@@ -1288,17 +1288,17 @@
 			}]
 		}
 		{
-			title: "Pouch of Flair"
+			title: "Мешочек для чутья"
 			x: -5.25d
 			y: 2.5d
 			shape: "rsquare"
-			subtitle: "Full of Shinies"
+			subtitle: "Полный блесток"
 			description: [
-				"&5In Wold's Vaults, Trinkets require you to wear a Trinket Pouch to equip them."
+				"&5В Wold's Vaults тринкеты требуют, чтобы вы носили Trinket Pouch для их экипировки."
 				""
-				"&5The starter Trinket Pouch enables you to equip one Blue and one Red trinket. You can find other Trinket Pouches as loot or other ways, and they can let you equip Green color trinkets, or two of the same color Trinket, or more than 2 Trinkets."
+				"&5Стартовый мешочек Trinket Pouch позволяет экипировать один синий и один красный брелок. Вы можете найти другие мешочки для брелоков в виде лута или другими способами, и они позволят вам экипировать брелоки зеленого цвета, или два брелока одного цвета, или более двух брелоков."
 				""
-				"&5As well, you can remove a Trinket Pouch and it will keep the Trinkets you put into it, enabling you to swap in and out sets of Trinkets for different builds."
+				"&5Кроме того, вы можете снять Trinket Pouch, и в нем останутся те тринкеты, которые вы в него положили, что позволит вам менять местами наборы тринкет для разных билдов."
 			]
 			hide_dependency_lines: true
 			dependencies: ["59D6A7EF6A2A5123"]
@@ -1307,7 +1307,7 @@
 			tasks: [{
 				id: "60B8679F1D277685"
 				type: "item"
-				title: "Any Trinket Pouch"
+				title: "Любой мешочек для брелока"
 				icon: {
 					id: "woldsvaults:trinket_pouch"
 					Count: 1b
@@ -1331,17 +1331,17 @@
 			}]
 		}
 		{
-			title: "A Powerful Weave"
+			title: "Мощное переплетение"
 			x: -4.75d
 			y: 3.5d
 			shape: "rsquare"
-			subtitle: "Sewing Destiny"
+			subtitle: "Швейная судьба"
 			description: [
-				"&5The Weaving Station is used to craft other Trinket Pouches."
+				"&5Станция ткачества используется для изготовления других мешочков для брелоков."
 				""
-				"&5By default, you can craft one of three starting Trinket Pouches with it, which give you some combination of the three Trinket colors : Blue, Red, and Green."
+				"&5По умолчанию вы можете изготовить один из трех стартовых мешочков с тринкетами, которые дают вам комбинацию из трех цветов тринкета: синего, красного и зеленого."
 				""
-				"&5There are also special Trinket Pouch recipes you will have to find and loot!"
+				"&5Есть также специальные рецепты Trinket Pouch, которые вам предстоит найти и разграбить!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["5DA329FC1A2F69DA"]
@@ -1360,19 +1360,19 @@
 			}]
 		}
 		{
-			title: "Modding Boxes of Mod Boxes"
+			title: "Моддинг коробок модов"
 			x: -6.25d
 			y: 1.5d
 			shape: "rsquare"
-			subtitle: "Boxing Boxed Boxes Box"
+			subtitle: "Бокс Бокс Бокс Бокс"
 			description: [
-				"&5The Mod Box Workstation is a Researchable tool that enables you to craft Targeted Mod Boxes."
+				"&5Mod Box Workstation - это инструмент для исследований, который позволяет создавать целевые Mod Box."
 				""
-				"&5These boxes will only drop items from the listed mod."
+				"&5Из этих ящиков будут выпадать предметы только из перечисленных модов."
 				""
-				"&5To craft a specific box, you must have that mod Researched."
+				"&5Чтобы создать определенную шкатулку, вам необходимо исследовать этот мод."
 				""
-				"&4(RESEARCH REQUIRED)"
+				"&4(ТРЕБУЕТСЯ ИССЛЕДОВАНИЕ)"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4258E78EC459B8E3"]
@@ -1391,19 +1391,19 @@
 			}]
 		}
 		{
-			title: "Fruit By The Vault"
+			title: "Фрукты у хранилища"
 			x: -10.5d
 			y: 0.25d
 			shape: "rsquare"
-			subtitle: "Sweet, Sweet Time"
+			subtitle: "Сладкое, сладкое время"
 			description: [
-				"&5Around level 20, you'll start finding Vault Fruit in your Completion Crates and other sources."
+				"&5Примерно с 20-го уровня вы начнете находить Vault Fruit в ящиках Completion Crates и других источниках."
 				""
-				"&5Vault Fruit enables you to add time to your Vault Timer, to help eke out just a bit more loot or enough time to finish the Objective."
+				"&5Vault Fruit позволяет добавить время к таймеру хранилища, чтобы получить чуть больше лута или достаточно времени для завершения цели."
 				""
-				"&5Each Vault Fruit you consume takes 10% of your max HP. "
+				"&5Каждый съеденный фрукт хранилища отнимает 10% от вашего максимального HP. "
 				""
-				"&5You'll find bigger and better Fruit the higher you level up. Some of them have special side effects as well."
+				"&5Чем выше ваш уровень, тем больше и лучше фруктов вы найдете. Некоторые из них обладают особыми побочными эффектами."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1881243BF68F0FAC"]
@@ -1422,23 +1422,23 @@
 			}]
 		}
 		{
-			title: "Voiding Possibilities"
+			title: "Лишение возможностей"
 			x: -3.25d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "Just Say No"
+			subtitle: "Просто скажите \"нет"
 			description: [
-				"&5By Researching Junk Management, you gain access to a helpful tool to keeping your backpacks and inventory clear of extra blocks, especially if you use a hammer : The Void Crucible."
+				"&5Изучив \"Управление хламом\", вы получите доступ к полезному инструменту, позволяющему очищать рюкзаки и инвентарь от лишних блоков, особенно если вы используете молоток: The Void Crucible."
 				""
-				"&5The Void Crucible will let you craft a Void Pendant in the top tab, using Vault Gold and Vault Alloy. When worn, it will automatically void and destroy any non-Vault resource related blocks (such as the blocks that make up the floor, walls, and ceilings)."
+				"&5В верхней вкладке Void Crucible вы сможете изготовить кулон Пустоты, используя золото и сплав Свода. При ношении кулона он автоматически аннулирует и разрушает все блоки, не связанные с ресурсами Свода (например, блоки, из которых состоит пол, стены и потолок)."
 				""
-				"&5Blocks voided this way won't take durability from your Magnet."
+				"&5Блоки, уничтоженные таким образом, не отнимут прочность у вашего магнита."
 				""
-				"&5In the Void Crucible UI, in the middle tab, you can look through the different themes and select blocks to blacklist and disable voiding on."
+				"&5В пользовательском интерфейсе Void Crucible на средней вкладке вы можете просмотреть различные темы и выбрать блоки для внесения в черный список и отключения аннулирования."
 				""
-				"&5The third tab will show you all the items you have blacklisted, and you can click to remove them."
+				"&5На третьей вкладке вы увидите все элементы, которые вы внесли в черный список, и сможете нажать кнопку, чтобы удалить их."
 				""
-				"&4(RESEARCH REQUIRED)"
+				"&4(ТРЕБУЕТСЯ ИССЛЕДОВАНИЕ)"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2EC8B80AE1A271D5"]
@@ -1457,21 +1457,21 @@
 			}]
 		}
 		{
-			title: "A Filter of the Void"
+			title: "Фильтр пустоты"
 			x: -2.25d
 			y: -3.0d
 			shape: "rsquare"
-			subtitle: "More Void Power"
+			subtitle: "Больше силы пустоты"
 			description: [
-				"&5The issue with the Void Crucible and Void Stone, as they are, is that they void all non-Vault blocks, and the blacklist function has a max of 54 blocks to save from Voiding."
+				"&5Проблема с Void Crucible и Void Stone в том, что они аннулируют все блоки, не относящиеся к Vault, а функция черного списка имеет максимум 54 блока, которые можно спасти от аннулирования."
 				""
-				"&5Which is an issue as, especially in Wolds, there are LOTS of great blocks you might want to keep for your own builds or resources."
+				"&5Это проблема, так как, особенно в Волдсе, есть много отличных блоков, которые вы могли бы сохранить для своих построек или ресурсов."
 				""
-				"&5Enter the Filter Necklace! Using the power of Create's Filter and Attribute Filter, you can instead be more selective on what you want to Void."
+				"&5Представляем ожерелье \"Фильтр\"! Используя возможности фильтров Create и Attribute Filter, вы сможете более избирательно подходить к выбору того, что вы хотите превратить в пустоту."
 				""
-				"&5Hold the Filter Necklace and Right Click with it to open it up, and you can fit plenty of Filters or Attribute Filters in."
+				"&5Удерживайте ожерелье фильтров и щелкните правой кнопкой мыши, чтобы открыть его, и вы сможете поместить в него множество фильтров или фильтров атрибутов."
 				""
-				"&5Then when worn, the Filter Necklace will only void blocks that match the settings in any filters you have inside it."
+				"&5Тогда при ношении Ожерелье фильтров будет уничтожать только те блоки, которые соответствуют настройкам всех фильтров, находящихся в нем."
 			]
 			hide_dependency_lines: true
 			dependencies: ["6CA424DD23A91F38"]
@@ -1490,19 +1490,19 @@
 			}]
 		}
 		{
-			title: "Just Like New"
+			title: "Как новый"
 			x: -3.25d
 			y: -2.0d
 			shape: "rsquare"
-			subtitle: "Ignore The Scuff Marks"
+			subtitle: "Не обращайте внимания на потертости"
 			description: [
-				"&5As you level higher, you will slow down in gaining levels, but increase the amount of equipment you find in a Vault."
+				"&5По мере повышения уровня вы будете медленнее набирать уровни, но зато увеличится количество снаряжения, которое вы найдете в хранилище."
 				""
-				"&5Eventually you'll find a piece of equipment that should last you long enough that you wear down the Durability to the breaking point."
+				"&5В конце концов вы найдете снаряжение, которое прослужит вам достаточно долго, чтобы вы изнашивали его до предела."
 				""
-				"&5If you still have a piece of Gear you want to use longer when the Durability runs out, you'll want a Repair Core."
+				"&5Если у вас остался предмет, который вы хотите использовать дольше, когда прочность закончится, вам понадобится Repair Core."
 				""
-				"&5Combine a Repair Core with the piece of equipment in an Anvil to repair it. It will consume a Repair slot on the equipment and refill the Durability."
+				"&5Соедините ядро ремонта с предметом снаряжения на наковальне, чтобы починить его. При этом будет израсходован слот ремонта на экипировке и пополнен запас прочности."
 			]
 			hide_dependency_lines: true
 			dependencies: [

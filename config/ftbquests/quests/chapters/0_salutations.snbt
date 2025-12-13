@@ -3,18 +3,18 @@
 	group: "1A78C6EA3A0ABFDA"
 	order_index: 0
 	filename: "0_salutations"
-	title: "[0] Salutations"
+	title: "[0] Приветствия"
 	icon: {
 		id: "botania:cosmetic_questgiver_mark"
 		Count: 1b
 		tag: { }
 	}
-	subtitle: ["Getting Up to Speed"]
+	subtitle: ["Набираем скорость"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Welcome to Wold's Vaults"
+			title: "Добро пожаловать в хранилища Вольда"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -23,23 +23,23 @@
 			x: 1.0d
 			y: -5.5d
 			shape: "pentagon"
-			subtitle: "Presented by The Ferret Business"
+			subtitle: "Представлено компанией The Ferret Business"
 			description: [
-				"&5Greetings and hello!"
+				"&5Приветствую вас и здравствуйте!"
 				" "
-				"&5My name is Caigan, and I'm here to guide you through playing this modpack! Whether you are new to Wold's Vaults, or to Vault Hunters at all, these quests are to help guide you through everything."
+				"&5Меня зовут Caigan, и я здесь, чтобы направлять вас в процессе игры в этот модпак! Если вы новичок в Wold's Vaults или вообще в Vault Hunters, эти квесты помогут вам разобраться во всем."
 				""
-				"&5There's a lot to go over! You ready?"
+				"&5Нам предстоит многое узнать! Вы готовы?"
 			]
 			id: "5DD803E2DB661B66"
 			tasks: [{
 				id: "37A8CF4751CBD764"
 				type: "checkmark"
-				title: "And Here We Go..."
+				title: "И понеслось..."
 			}]
 		}
 		{
-			title: "What is Vault Hunters?"
+			title: "Что такое Vault Hunters?"
 			icon: {
 				id: "the_vault:sword"
 				Count: 1b
@@ -67,19 +67,19 @@
 			x: 2.0d
 			y: -6.5d
 			shape: "pentagon"
-			subtitle: "In Case You Didn't Know"
+			subtitle: "Если вы не знали"
 			description: [
-				"&5You probably already know the answer to this question. It's probably why you are playing this pack, or started playing Vault Hunters (Which I'll call Vanilla VH from here on). But in summary : "
+				"&5Скорее всего, вы уже знаете ответ на этот вопрос. Возможно, именно поэтому вы играете в этот пак или начали играть в Vault Hunters (которую я буду называть Vanilla VH с этого момента). Но вкратце: "
 				""
-				"&5Vault Hunters is an RPG modpack where you tackle procedurally generated dungeons called Vaults."
+				"&5Vault Hunters - это модпак для ролевой игры, в котором вам предстоит преодолевать процедурно генерируемые подземелья, называемые Vaults."
 				""
-				"&5Inside these Vaults, you'll find swarms of monsters to fight, Vault Gear to equip, resources to craft with, and more. Level up, learn skills and talents, create a build around your preferred play style."
+				"&5В этих хранилищах вы найдете стаи монстров, с которыми можно сражаться, экипировку Vault Gear, ресурсы, которые можно добывать, и многое другое. Повышайте уровень, изучайте умения и таланты, создавайте свой стиль игры."
 				""
-				"&5As you progress, the Vaults get harder, and more costly to summon. Research new mods to help you, whether its to farm resources, sort your growing pile of loot, or just to have a break from the Vaults with some fun mods."
+				"&5По мере прохождения игры вызывать хранилища становится все сложнее и дороже. Исследуйте новые моды, которые помогут вам, будь то добыча ресурсов, сортировка растущей кучи лута или просто отдых от сводов с помощью забавных модов."
 				""
-				"&5Your goal? Reach level 100, find the 25 artifacts, and challenge the Herald."
+				"&5Ваша цель? Достичь 100-го уровня, найти 25 артефактов и бросить вызов Геральду."
 				""
-				"&5After that? Well, it's time to get Greedy..."
+				"&5После этого? Ну, пришло время стать Жадным..."
 			]
 			dependencies: ["5DD803E2DB661B66"]
 			hide: true
@@ -87,28 +87,28 @@
 			tasks: [{
 				id: "351909F1249A7B6C"
 				type: "checkmark"
-				title: "Grind Those Levels"
+				title: "Отшлифуйте эти уровни"
 			}]
 		}
 		{
-			title: "So What Is Wold's?"
+			title: "Так что же такое Wold's?"
 			icon: "the_vault:wold_star"
 			x: 3.5d
 			y: -6.5d
 			shape: "pentagon"
-			subtitle: "Second Verse, Not Exactly the First"
+			subtitle: "Второй стих, не совсем первый"
 			description: [
-				"&5So now the question becomes : What is Wold's Vaults? Well, this is a spinoff of Vanilla VH, with tons of new features."
+				"&5Теперь возникает вопрос: что такое Wold's Vaults? Ну, это спин-офф Vanilla VH, с кучей новых возможностей."
 				""
-				"&5There are new types of Vault Gear to find and use, like the Vault Battlestaff and Vaultarang. "
+				"&5Вам предстоит найти и использовать новые виды Vault Gear, такие как Vault Battlestaff и Vaultarang. "
 				""
-				"&5Many new mods to play with, both available from the start and ones you can unlock via Research."
+				"&5Множество новых модов для игры, как доступных с самого начала, так и тех, которые можно разблокировать с помощью исследований."
 				""
-				"&5Alternate, harder versions of Vanilla VH Vault Objectives. Scavenger not challenging enough? Try Unhinged Scavenger!"
+				"&5Альтернативные, более трудные версии ванильных заданий VH Vault. Scavenger недостаточно сложен? Попробуйте Unhinged Scavenger!"
 				""
-				"&5Lots of balancing adjustments and Quality of Life additions."
+				"&5Множество балансировочных настроек и дополнений к качеству жизни."
 				""
-				"&5More end game goals, including the ability to craft Creative level items. And then there's the post-Herald content, a bigger and bigger challenge..."
+				"&5Больше конечных игровых целей, включая возможность создавать предметы уровня Creative. А еще есть контент после Геральда, все более и более серьезный вызов..."
 			]
 			dependencies: ["19DD5DBBECEACA48"]
 			hide: true
@@ -116,11 +116,11 @@
 			tasks: [{
 				id: "13656E047D8BD2BB"
 				type: "checkmark"
-				title: "So Much to Show You"
+				title: "Так много нужно показать"
 			}]
 		}
 		{
-			title: "Major Changes"
+			title: "Основные изменения"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -131,13 +131,13 @@
 			x: 4.5d
 			y: -5.5d
 			shape: "pentagon"
-			subtitle: "A Few Quick Things"
+			subtitle: "Несколько быстрых вещей"
 			description: [
-				"&5These quests will cover most everything from both VH Vanilla and Wold's Vaults."
+				"&5Эти квесты охватывают почти все задания как из VH Vanilla, так и из Wold's Vaults."
 				""
-				"&5There will be some things not covered, either by accident or because these quests have not been updated to match them yet. If new things are added to either VH Vanilla or Wold's Vaults, it may take a bit before quests are added or updated."
+				"&5Некоторые вещи будут не охвачены, либо случайно, либо потому, что эти квесты еще не были обновлены, чтобы соответствовать им. Если в VH Vanilla или Wold's Vaults будут добавлены новые вещи, может пройти некоторое время, прежде чем квесты будут добавлены или обновлены."
 				""
-				"&5First things first though, let me go over two major changes to the pack in the next two quests : "
+				"&5Прежде всего, позвольте мне рассказать о двух основных изменениях в стае в следующих двух квестах: "
 			]
 			dependencies: ["5136BFD11A07D7D0"]
 			hide: true
@@ -145,30 +145,30 @@
 			tasks: [{
 				id: "6690DF0C44971A38"
 				type: "checkmark"
-				title: "Big Changes, Little Changes..."
+				title: "Большие перемены, маленькие перемены..."
 			}]
 		}
 		{
-			title: "Group Survival"
+			title: "Выживание группы"
 			icon: "luphieclutteredmod:luphie_bunny_garland"
 			x: 2.5d
 			y: 2.0d
 			shape: "rsquare"
-			subtitle: "More the Merrier"
+			subtitle: "Чем больше, тем лучше"
 			description: [
-				"&5If you are playing on a server with friends, you can group up to tackle Vaults together."
+				"&5Если вы играете на сервере с друзьями, вы можете объединиться в группы, чтобы вместе преодолевать Своды."
 				""
-				"&5Survival in numbers, of course."
+				"&5Конечно, выживание в количестве."
 				""
-				"To run Vaults with other players, you should form a party. You can do &6/party create&r, then &6/party invite player&r, where player is the name of the person you want to group with."
+				"Чтобы играть в Vaults вместе с другими игроками, вам нужно создать партию. Вы можете выполнить команду &6/party create&r, затем &6/party invite player&r, где player - имя человека, с которым вы хотите объединиться."
 				""
-				"To join a different party or go solo, be sure to do &6/party leave&r!"
+				"Чтобы присоединиться к другой партии или пойти в одиночку, обязательно сделайте &6/party leave&r!"
 				""
-				"&5Normally, the experience you earn in a Vault is not shared. The mobs you fight, the chests you loot, only give YOU experience. You can change a gamerule so that parties share some amount of experience : "
+				"&5Обычно опыт, который вы зарабатываете в хранилище, не делится. Мобы, с которыми вы сражаетесь, сундуки, которые вы грабите, дают только ВАШ опыт. Вы можете изменить правила игры таким образом, чтобы стороны делились некоторым количеством опыта: "
 				""
-				"&6/gamerule vaultXPShare amount&r : change amount to one of the following : "
-				"     Option 1"
-				"     Option 2"
+				"&6/gamerule vaultXPShare amount&r: изменить сумму на одну из следующих: "
+				"     Вариант 1"
+				"     Вариант 2"
 			]
 			dependencies: ["4CA0844372B19F19"]
 			hide: true
@@ -176,28 +176,28 @@
 			tasks: [{
 				id: "483B8AF014C584F7"
 				type: "checkmark"
-				title: "Together For...Some Time?"
+				title: "Вместе на... какое-то время?"
 			}]
 		}
 		{
-			title: "Death and Extraction"
+			title: "Смерть и добыча"
 			icon: "rftoolsutility:peaceful_module"
 			x: 3.0d
 			y: -0.5d
 			shape: "pentagon"
-			subtitle: "The Only Two Guarantees"
+			subtitle: "Только две гарантии"
 			description: [
-				"&5Along with being able to enable or disable Better Combat or Parcool, VH Vanilla and Wold's Vaults have various commands and gamerules you can change to customize your experience."
+				"&5Помимо возможности включить или отключить Better Combat или Parcool, в VH Vanilla и Wold's Vaults есть различные команды и правила игры, которые вы можете изменить, чтобы настроить свой опыт."
 				""
-				"&5At it's core, this modpack is an Extraction Looter : You enter a dungeon to get loot, and to keep the loot you must survive and extract. And by default, if you are level 20 or higher, if you die you lose your inventory, which you can purchase back by spending Vault Gold."
+				"&5По своей сути этот модпак представляет собой Extraction Looter: вы входите в подземелье, чтобы получить лут, а чтобы сохранить лут, вы должны выжить и добыть его. По умолчанию, если вы 20-го уровня или выше, при смерти вы теряете свой инвентарь, который можно выкупить, потратив золото хранилища."
 				""
-				"If you want death to be less punishing (or more!), you can set your world or server's Vault Mode by using the following : "
+				"Если вы хотите, чтобы смерть была менее наказуемой (или более!), вы можете установить режим хранилища в вашем мире или на сервере, используя следующее: "
 				""
-				"&6/gamerule VaultMode Normal :&r The default mode. If you die in a Vault, you get a Spirit with your equipment, and have to pay Vault Gold to get your stuff back."
+				"&6/gamerule VaultMode Normal :&r Режим по умолчанию. Если вы умираете в хранилище, то получаете Духа с вашим снаряжением и должны заплатить Золото хранилища, чтобы получить свои вещи обратно."
 				""
-				"&6/gamerule VaultMode Casual :&r You get your items back if you die, but they take some durability damage."
+				"&6/gamerule VaultMode Casual :&r Вы получите свои предметы обратно, если умрете, но они получат некоторый урон прочности."
 				""
-				"&6/gamerule VaultMode Hardcore :&r You lose everything on you if you die in a Vault. No purchasing your stuff back."
+				"&6/gamerule VaultMode Hardcore :&r Если вы умрете в хранилище, то потеряете все, что на вас было. Вы не сможете купить свои вещи обратно."
 			]
 			dependencies: ["2E8B1B1D23FEAF8E"]
 			hide: true
@@ -205,29 +205,29 @@
 			tasks: [{
 				id: "61503165E064852F"
 				type: "checkmark"
-				title: "Have It Your Style"
+				title: "Сделайте это в своем стиле"
 			}]
 		}
 		{
-			title: "Vault Difficulty"
+			title: "Сложность хранилища"
 			icon: "the_vault:soul_flame"
 			x: 3.0d
 			y: 0.5d
 			shape: "rsquare"
-			subtitle: "A Difficulty Tweak"
+			subtitle: "Настройка сложности"
 			description: [
-				"&5Inside the Vaults, you can change how strong or weak the various mobs are. This changes their health and the damage they do to you."
+				"&5В хранилищах вы можете изменить силу или слабость различных мобов. Это изменяет их здоровье и урон, который они наносят вам."
 				""
-				"&5This setting effects only your Vaults, and can be different for each person on a server."
+				"&5Эта настройка влияет только на ваши хранилища и может быть разной для каждого человека на сервере."
 				""
-				"&5If you are in a Vault Party, the LAST person to enter the Vault sets the Vault Difficulty to their setting."
+				"&5Если вы участвуете в партии в хранилище, то тот, кто вошел в хранилище последним, устанавливает сложность хранилища на свое значение."
 				""
-				"To set your local difficulty, do the following command : "
-				"&6/the_vault local_difficulty your_name difficulty :&r Replace your_name with your minecraft name, and difficulty with one of the following. Each one increases the health and damage of mobs : "
+				"Чтобы установить локальную сложность, выполните следующую команду : "
+				"&6/the_vault local_difficulty your_name difficulty :&r Замените your_name на ваше имя в minecraft, а difficulty - на одно из следующих. Каждая из них увеличивает здоровье и урон мобов: "
 				"    Piece of Cake"
 				"    Easy"
 				"    Normal (Default)"
-				"    Hard (Dwellers can throw bricks now)"
+				"    Hard (Жители теперь могут бросать кирпичи)"
 				"    Impossible"
 				"    Fragged"
 			]
@@ -237,11 +237,11 @@
 			tasks: [{
 				id: "505126E565C13A73"
 				type: "checkmark"
-				title: "Pushover or Punch God?"
+				title: "Толкач или Бог ударов?"
 			}]
 		}
 		{
-			title: "Paying for Crystals"
+			title: "Оплата за кристаллы"
 			icon: {
 				id: "the_vault:vault_crystal"
 				Count: 1b
@@ -265,19 +265,19 @@
 			x: 4.0d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "Entrance Fee"
+			subtitle: "Вступительный взнос"
 			description: [
-				"&5To get into Vaults, you need to 'pay' for crystals. The costs of crystals start out very cheap, but scale up the more you make."
+				"&5Чтобы попасть в хранилища, вам нужно \"платить\" за кристаллы. Стоимость кристаллов начинается очень дешево, но растет по мере того, как вы их зарабатываете."
 				""
-				"&5As you level, you'll unlock mods to make gathering materials for crystals easier."
+				"&5По мере роста уровня вы будете открывать моды, облегчающие сбор материалов для кристаллов."
 				""
-				"&5If you want to change how fast the crystal costs scale, or even remove the crystal cost, you can set the level for the entire server : "
+				"&5Если вы хотите изменить скорость изменения стоимости кристаллов или вообще убрать их, вы можете установить уровень для всего сервера: "
 				""
-				"You can set the scaling of resources for Crystals with the following command : "
-				"&6/gamerule vaultCrystalMode mode :&r Replace mode with one of the following :"
-				"     INFINITY (no cost)"
-				"     NORMAL (1x)"
-				"     GRINDY (2x)"
+				"Вы можете настроить масштабирование ресурсов для кристаллов с помощью следующей команды: "
+				"&6/gamerule vaultCrystalMode mode :&r Замените режим на один из следующих :"
+				"     INFINITY (без стоимости)"
+				"     NORMAL (1х)"
+				"     GRINDY (2х)"
 				"     EXTREME (3x)"
 			]
 			dependencies: ["4CA0844372B19F19"]
@@ -286,29 +286,29 @@
 			tasks: [{
 				id: "31F63991B3631A9D"
 				type: "checkmark"
-				title: "Discount!"
+				title: "Скидка!"
 			}]
 		}
 		{
-			title: "Loot! Experience! Rewards!"
+			title: "Грабь награбленное! Опыт! Награды!"
 			icon: "the_vault:treasure_chest"
 			x: 2.0d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "How Much or Little Would You Like?"
+			subtitle: "Как много или мало вы хотите?"
 			description: [
-				"&5You can change how fast or slow you level up, as well as how much loot you get in a Vault."
+				"&5Вы можете изменить скорость повышения уровня, а также количество лута, получаемого в хранилище."
 				""
-				"&5These settings changes it for everyone on a server :"
+				"&5Эти настройки изменяются для всех на сервере:"
 				""
 				"&6/gamerule VaultExperience amount"
-				"Replace amount with : "
+				"Замените сумму на : "
 				"  POOR (10%) / HALF (50%)"
 				"  NORMAL (100%) / DOUBLE (200%)"
 				"  TRIPLE (300%)"
 				""
 				"&6/gamerule VaultLoot amount"
-				"Replace amount with :"
+				"Замените сумму на :"
 				"  LEGACY (50%) / NORMAL (100%)"
 				"  PLENTY (200%) / EXTREME (300%)"
 				""
@@ -322,7 +322,7 @@
 			}]
 		}
 		{
-			title: "Sly Moves"
+			title: "Хитрые движения"
 			icon: {
 				id: "the_vault:trinket"
 				Count: 1b
@@ -353,17 +353,17 @@
 			x: 3.0d
 			y: -3.5d
 			shape: "pentagon"
-			subtitle: "PARKOUR!"
+			subtitle: "ПАРКУР!"
 			description: [
-				"&5Along with a more fluid combat system, Wold's Vaults adds a mod called Parcool. This enables your movement to include Parkour moves."
+				"&5Наряду с более подвижной боевой системой, Wold's Vaults добавляет мод Parcool. С его помощью вы сможете передвигаться с помощью паркура."
 				""
-				"&5Parkour is... basically, you go from point a to point b, except instead of going around stuff in your way, you go over it, under it, or through it instead, using it as leverage instead of a speed bump."
+				"&5Паркур - это... в общем, вы идете из точки \"а\" в точку \"б\", но вместо того, чтобы обходить препятствия на своем пути, вы идете над ними, под ними или сквозь них, используя их как рычаг, а не как препятствие."
 				""
-				"&5With Parcool, you can do double jumps, long jumps, climb up ledges, wall kick, tuck and roll, and more. You can see all the things you do in this book."
+				"&5С помощью Parcool вы можете выполнять двойные прыжки, прыжки в длину, взбираться на уступы, отталкиваться от стены, подтягиваться и кувыркаться и многое другое. Все это вы можете увидеть в этой книге."
 				""
-				"&5Note that you have a Stamina bar, which will deplete as you use Parcool moves. Once it recharges, you can use them again."
+				"&5Обратите внимание, что у вас есть полоска выносливости, которая будет истощаться по мере использования приемов Parcool. Как только он перезарядится, вы сможете использовать их снова."
 				""
-				"If a Parcool move is getting in the way, or you want to disable Parcool, you can simply either rebind or unbind all Parcool hotkeys in the in-game config. Search for catagory : Parcool."
+				"Если ход Parcool мешает вам, или вы хотите отключить Parcool, вы можете просто перепривязать или отвязать все горячие клавиши Parcool во внутриигровом конфиге. Поиск по категрии : Parcool."
 			]
 			dependencies: ["261FB6A187AC7231"]
 			hide: true
@@ -374,7 +374,7 @@
 			}]
 		}
 		{
-			title: "Swing With Style"
+			title: "Качели в стиле"
 			icon: {
 				id: "ae2:fluix_sword"
 				Count: 1b
@@ -385,21 +385,21 @@
 			x: 3.5d
 			y: -4.5d
 			shape: "pentagon"
-			subtitle: "Combat Improved"
+			subtitle: "Улучшенный бой"
 			description: [
-				"&5The moment you get into combat, you'll notice the smoother animations, and fairly different feel of it versus normal Minecraft combat."
+				"&5Как только вы вступите в бой, вы заметите более плавные анимации и совсем другие ощущения, чем в обычном бою Minecraft."
 				""
-				"&5This is a mod called Better Combat, which adds more fluid attacks and animations."
+				"&5Это мод под названием Better Combat, который добавляет более плавные атаки и анимации."
 				""
-				"&5These animations change depending on what weapons you are using. Swinging a Sword will feel different than swinging a Battlestaff, for example."
+				"&5Эти анимации меняются в зависимости от того, какое оружие вы используете. Например, взмах мечом будет отличаться от взмаха боевым посохом."
 				""
-				"&5For those very much used to Vanilla combat, like myself, the change can feel jarring and out of place. But I suggest giving the mod a chance through a couple Vaults first. "
+				"&5Для тех, кто привык к боям в Vanilla, как я, изменения могут показаться резкими и неуместными. Но я рекомендую сначала попробовать мод в паре хранилищ. "
 				""
-				"You can disable Better Combat by going into your Config folder, and finding the woldsvaults-common.toml file. Edit it and change the following : "
+				"Вы можете отключить Better Combat, зайдя в папку Config и найдя файл woldsvaults-common.toml. Отредактируйте его и измените следующее: "
 				""
-				"&6weaponsShouldntBeBetter = false"
+				"&6weaponShouldntBeBetter = false"
 				""
-				"Change false to true to return to Vanilla Minecraft combat."
+				"Измените false на true, чтобы вернуться к бою в ванильном Minecraft."
 			]
 			dependencies: ["1C67908469019A64"]
 			hide: true
@@ -410,7 +410,7 @@
 			}]
 		}
 		{
-			title: "Researchers Unite"
+			title: "Исследователи объединяются"
 			icon: {
 				id: "peripherals:magnetic_card"
 				Count: 1b
@@ -419,13 +419,13 @@
 			x: 3.5d
 			y: 2.0d
 			shape: "rsquare"
-			subtitle: "A Team For Knowledge"
+			subtitle: "Команда за знаниями"
 			description: [
-				"&5Most mods must be unlocked via the Research System. If you don't have the Research, you cannot craft and sometimes can't even use items from a locked mod."
+				"&5Большинство модов должны быть разблокированы через систему исследований. Если у вас нет Исследования, вы не сможете создавать, а иногда даже использовать предметы из заблокированного мода."
 				""
-				"&5If you are on a server working together with others, you can form a Research Party though."
+				"&5Если вы находитесь на сервере и играете вместе с друзьями, вы можете создать исследовательскую команду."
 				""
-				"You can form a Research Team to unlock mods together. The cost of the Research goes up by 50% for each person added, but overall is cheaper for everyone on the team."
+				"Вы можете объединиться в команду исследователей, чтобы вместе разблокировать моды. Стоимость исследования увеличивается на 50% за каждого добавленного человека, но в целом оно обходится дешевле для всех членов команды."
 				"&6/the_vault research_team invite player_name"
 			]
 			dependencies: ["40E4E5113E933B44"]
@@ -434,26 +434,26 @@
 			tasks: [{
 				id: "6AC4338386819ACB"
 				type: "checkmark"
-				title: "Sharing Notes"
+				title: "Совместные заметки"
 			}]
 		}
 		{
-			title: "Sharing the Experience"
+			title: "Обмен опытом"
 			icon: "minecraft:experience_bottle"
 			x: 1.25d
 			y: 2.0d
 			shape: "rsquare"
-			subtitle: "Your XP? No, Comrade, OUR XP!"
+			subtitle: "Ваш XP? Нет, товарищ, НАШ XP!"
 			description: [
-				"&5If you regularly run Vaults with other players, you might notice that the XP you earn between yourselves can be pretty different between party members. The Vault XP you get depends on your own actions: looting chests, killing mobs, doing tasks, etc. Some players and builds can go much faster and thus get more XP."
+				"&5Если вы регулярно бегаете в хранилища с друзьями, то можете заметить, что заработанный XP может сильно отличаться для разных членов партии. Получаемый в Хранилище XP зависит от ваших собственных действий: разграбления сундуков, убийства мобов, выполнения заданий и т.д. Некоторые игроки и билды могут проходить хранилище гораздо быстрее и, соответственно, получать больше XP."
 				""
-				"&5You can change how XP is shared in a Vault with a new gamerule. With the gamrule, you can change it so you combine the XP and split it evenly between all Vault runners, or you can match XP to the highest OR lowest XP gained."
+				"&5Вы можете изменить способ распределения XP в хранилище с помощью команды.  Позволяет изменить распределение XP поровну между всеми игроками в хранилище, или же вы можете сопоставить XP с наибольшим или наименьшим количеством набранных XP."
 				""
-				"&6/gamerule vaultPartyExpSharing amount :&r Replace amount with one of the following :"
-				"    AVERAGE (Average of combined XP)"
-				"    HIGHEST (match highest XP gained)"
-				"    LOWEST (Match lowest XP gained)"
-				"    DISABLED (No share. Default)"
+				"&6/gamerule vaultPartyExpSharing amount :&r Замените сумму на одно из следующих значений :"
+				"    AVERAGE (Среднее значение комбинированных XP)"
+				"    HIGHEST (соответствует наибольшему количеству полученных XP)"
+				"    LOWEST (соответствует наименьшему количеству полученных XP)"
+				"    ОТКЛЮЧЕНО (Нет доли. Default)"
 			]
 			dependencies: [
 				"281380C803D15FCC"
@@ -467,22 +467,22 @@
 			}]
 		}
 		{
-			title: "Huge Crystal Energy"
+			title: "Огромная энергия кристаллов"
 			icon: "luphieclutteredmod:luphie_analog_kitchen_scale"
 			x: 4.75d
 			y: 2.0d
 			shape: "rsquare"
-			subtitle: "It Wants HOW Many Apples?!"
+			subtitle: "Оно хочет КАК много яблок?!"
 			description: [
-				"&5On top of CrystalMode, another new gamerule added lets you set the speed of the Scaling of the ingredients for a crystal."
+				"&5В дополнение к CrystalMode добавился еще один новый игровой модуль, позволяющий настроить скорость масштабирования ингредиентов для кристалла."
 				""
-				"&5This means, combined with Crystal mode, you can have a crystal ask for easier or harder ingredients sooner than normal, and how many of each ingredient as well."
+				"&5Это означает, что в сочетании с режимом \"Crystal\" вы можете установить для кристалла, более простые или более сложные ингредиенты раньше, чем обычно, а также количество каждого ингредиента."
 				""
-				"If you want the scaling to go faster or slower : "
+				"Если вы хотите, чтобы масштабирование происходило быстрее или медленнее: "
 				""
-				"&6 /gamerule vaultCrystalRecipeScaling scale:&r Replace scale with one of the following :"
-				"    SLOW (0.5x)"
-				"    NORMAL (1x)"
+				"&6 /gamerule vaultCrystalRecipeScaling scale:&r Замените масштаб на один из следующих :"
+				"    SLOW (0,5x)"
+				"    NORMAL (1х)"
 				"    FAST (2x)"
 				"    EXTREME (3x)"
 			]
@@ -495,16 +495,16 @@
 			}]
 		}
 		{
-			title: "Locking Your Level"
+			title: "Блокировка уровня"
 			icon: "thermal:lock"
 			x: 3.0d
 			y: 3.25d
 			shape: "rsquare"
-			subtitle: "Go No Further!"
+			subtitle: "Не останавливайтесь!"
 			description: [
-				"&5Previously you could set a level cap for your game or server by editing a config file. This was a good way to limit how fast some players can go, so everyone keeps to similar levels."
+				"&5Раньше вы могли установить предельный уровень для своей игры или сервера, отредактировав файл конфигурации. Это был хороший способ ограничить предел уровня для некоторых игроков, чтобы все придерживались одинаковых уровней."
 				""
-				"&5Now there is a gamerule that can be set much easier than editing a config file. This will stop all players on the server from leveling beyond that point, until you change the gamerule higher."
+				"&5Теперь есть команда, которую можно установить гораздо проще, чем редактировать файл конфигурации. Это запретит всем игрокам на сервере повышать уровень выше указанного, пока вы не измените командой уровень выше."
 			]
 			dependencies: ["4CA0844372B19F19"]
 			hide: true
@@ -515,18 +515,18 @@
 			}]
 		}
 		{
-			title: "An Easy Menu"
+			title: "Простое меню"
 			icon: "quarryplus:status_checker"
 			x: 3.75d
 			y: -0.75d
 			shape: "gear"
-			subtitle: "All In One Spot"
+			subtitle: "Все в одном месте"
 			description: [
-				"All the Vault and Gamerule commands listed in this quest and the ones below can all be accessed from a new menu in the Options Menu!"
+				"Все команды Vault и Gamerule, перечисленные в этом квесте и ниже, доступны из нового меню в меню опций!"
 				""
-				"It is called Vault Settings. It gives you easy access to changing any of these settings."
+				"Он называется \"Настройки хранилища\". С его помощью можно легко изменить любые настройки."
 				""
-				"Many of them require you to be OPerator or admin on the server to set though!"
+				"Многие из них требуют, чтобы вы были OPerator или администратором на сервере для установки!"
 			]
 			dependencies: ["4CA0844372B19F19"]
 			hide: true

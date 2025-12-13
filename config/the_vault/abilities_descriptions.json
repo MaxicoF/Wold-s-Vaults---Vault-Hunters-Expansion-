@@ -1062,20 +1062,20 @@
       "current": [
         "manaCost",
         "cooldown",
-        "шипыПовреждения",
+        "thornsDamage",
         "adjustedRadius"
       ],
       "next": [
         "manaCost",
         "cooldown",
-        "шипыПовреждения",
+        "thornsDamage",
         "adjustedRadius"
       ]
     },
     "Mana_Shield_Base": {
       "description": [
         {
-          "text": "Гранты ",
+          "text": "Накладывает ",
           "color": "$text"
         },
         {
@@ -1083,15 +1083,15 @@
           "color": "$absorb"
         },
         {
-          "text": " для ",
+          "text": " на ",
           "color": "$text"
         },
         {
-          "text": "ограниченное время",
+          "text": "время",
           "color": "$duration"
         },
         {
-          "text": "поглощает весь входящий урон, пока щит не истощится или не истечет время.",
+          "text": ", поглощает весь входящий урон, пока щит не истощится или не истечет время.",
           "color": "$text"
         },
         {
@@ -1106,22 +1106,22 @@
       "current": [
         "manaCost",
         "cooldown",
-        "пункты здоровья"
+        "healthPoints"
       ],
       "next": [
         "manaCost",
         "cooldown",
-        "пункты здоровья"
+        "healthPoints"
       ]
     },
     "Mana_Barrier": {
       "description": [
         {
-          "text": "Вызовите магический ",
+          "text": "Призовите магический ",
           "color": "$text"
         },
         {
-          "text": "Куб маны",
+          "text": "Mana Cube",
           "color": "$absorb"
         },
         {
@@ -1129,15 +1129,15 @@
           "color": "$text"
         },
         {
-          "text": "продолжительность времени",
+          "text": "время",
           "color": "$duration"
         },
         {
-          "text": ". Мобы не могут пройти через эти ",
+          "text": ". Противники не могут пройти через эти ",
           "color": "$text"
         },
         {
-          "text": "блоков",
+          "text": "блоки",
           "color": "$absorb"
         },
         {
@@ -1214,12 +1214,12 @@
         }
       ],
       "current": [
-        "шипыПовреждения",
+        "thornsDamage",
         "manaCost",
         "cooldown"
       ],
       "next": [
-        "шипыПовреждения",
+        "thornsDamage",
         "manaCost",
         "cooldown"
       ]
@@ -1272,13 +1272,13 @@
         }
       ],
       "current": [
-        "шипыПовреждения",
+        "thornsDamage",
         "adjustedRadius",
         "manaCost",
         "cooldown"
       ],
       "next": [
-        "шипыПовреждения",
+        "thornsDamage",
         "adjustedRadius",
         "manaCost",
         "cooldown"
@@ -1312,12 +1312,12 @@
         }
       ],
       "current": [
-        "урон маны",
+        "manaDamage",
         "adjustedRadius",
         "cooldown"
       ],
       "next": [
-        "урон маны",
+        "manaDamage",
         "adjustedRadius",
         "cooldown"
       ]
@@ -1325,12 +1325,12 @@
     "Mega_Jump_Base": {
       "description": [
         {
-          "text": "Дает вам возможность ",
+          "text": "Наделяет способностью",
           "color": "$text"
         },
         {
-          "text": "мега-прыжок",
-          "color": "диапазон"
+          "text": "мега-прыжока",
+          "color": "$range"
         },
         {
           "text": " в воздухе.\n\n",
@@ -1355,11 +1355,11 @@
     "Mega_Jump_Break_Down": {
       "description": [
         {
-          "text": "Замените мегапрыжок на мегакопание! Вместо того чтобы поднимать вас в воздух, он буравит вас вниз по блокам, разбивая их по пути.\n\n",
+          "text": "Замените мегапрыжок на мегакопание! Вместо того чтобы поднимать вас в воздух, он толкает вас вниз по блокам, разбивая их по пути.\n\n",
           "color": "$text"
         },
         {
-          "text": "Эта способность не работает в надземном мире.\n\n",
+          "text": "Эта способность не работает в обычном мире.\n\n",
           "color": "$chance"
         },
         {
@@ -1413,7 +1413,7 @@
           "color": "$text"
         },
         {
-          "text": "\u25cf Способность удерживать ",
+          "text": "\u25cf Удерживайте способность ",
           "color": "$castType"
         }
       ],
@@ -2051,7 +2051,7 @@
     "Taunt_Base": {
       "description": [
         {
-          "text": "Насмехается над окружающими вас мобами в ",
+          "text": "Насмехается над окружающими вас противниками в ",
           "color": "$text"
         },
         {
@@ -2059,7 +2059,7 @@
           "color": "$radius"
         },
         {
-          "text": "зля их на вас и заставляя их ",
+          "text": " провоцируя их на вас и делает их ",
           "color": "$text"
         },
         {
@@ -2067,11 +2067,11 @@
           "color": "$vulnerable"
         },
         {
-          "text": " для ",
+          "text": " на ",
           "color": "$text"
         },
         {
-          "text": "продолжительность времени",
+          "text": "время",
           "color": "$duration"
         },
         {
@@ -2087,7 +2087,7 @@
           "color": "$vulnerable"
         },
         {
-          "text": " увеличивает урон, наносимый этому мобу, на ",
+          "text": " увеличивает урон, наносимый противнику, на ",
           "color": "$text"
         },
         {
@@ -2117,7 +2117,7 @@
     "Taunt_Repel": {
       "description": [
         {
-          "text": "Вместо того чтобы насмехаться над окружающими вас мобами, они теперь боятся вас в ",
+          "text": "Вместо того чтобы провоцировать противника, теперь вы вгоняете их в ужас в ",
           "color": "$text"
         },
         {
@@ -2125,7 +2125,7 @@
           "color": "$radius"
         },
         {
-          "text": ". Напуганная толпа получит ",
+          "text": ". Напуганный противник получит ",
           "color": "$text"
         },
         {
@@ -2133,11 +2133,11 @@
           "color": "$distance"
         },
         {
-          "text": " и отказываются атаковать вас за ",
+          "text": " и отказываются атаковать вас на ",
           "color": "$text"
         },
         {
-          "text": "продолжительность времени",
+          "text": "время",
           "color": "$duration"
         },
         {
@@ -2171,11 +2171,11 @@
           "color": "$text"
         },
         {
-          "text": "случайная толпа",
+          "text": "случайных противников",
           "color": "$maxTargets"
         },
         {
-          "text": " в пределах ",
+          "text": " в ",
           "color": "$text"
         },
         {
@@ -2183,11 +2183,11 @@
           "color": "$radius"
         },
         {
-          "text": " вокруг вас, чтобы сражаться за вас. Зачарованные мобы наносят ",
+          "text": " вокруг вас, чтобы заставить сражаться за вас. Очарованные противники наносят ",
           "color": "$text"
         },
         {
-          "text": "процент от урона вашей атаки",
+          "text": "процент от вашего урона",
           "color": "$damage"
         },
         {
@@ -2195,15 +2195,15 @@
           "color": "$text"
         },
         {
-          "text": "эффекты при попадании. ",
+          "text": "эффект. ",
           "color": "$name"
         },
         {
-          "text": " Зачарованные мобы также имеют",
+          "text": " Очарованные противник также получает повышение",
           "color": "$text"
         },
         {
-          "text": " повышенная скорость",
+          "text": " скорости",
           "color": "$speed"
         },
         {
@@ -2308,14 +2308,14 @@
         "manaCost",
         "adjustedDuration",
         "adjustedRadius",
-        "реген маны"
+        "manaRegen"
       ],
       "next": [
         "cooldown",
         "manaCost",
         "adjustedDuration",
         "adjustedRadius",
-        "реген маны"
+        "manaRegen"
       ]
     },
     "Totem_Mob_Damage": {
@@ -2829,7 +2829,7 @@
         "abilityRange",
         "damageInterval",
         "adjustedRadius",
-        "дополнительная мана на болт",
+        "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
       ],
@@ -2837,7 +2837,7 @@
         "abilityRange",
         "damageInterval",
         "adjustedRadius",
-        "дополнительная мана на болт",
+        "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
       ]
@@ -2937,13 +2937,13 @@
       ],
       "current": [
         "abilityRange",
-        "дополнительная мана на болт",
+        "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
       ],
       "next": [
         "abilityRange",
-        "дополнительная мана на болт",
+        "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
       ]
@@ -3320,8 +3320,8 @@
         "adjustedDuration",
         "stormInterval",
         "slowDuration",
-        "обморожениеШанс",
-        "обморожениеДлительность",
+        "frostbiteChance",
+        "frostbiteDuration",
         "cooldown",
         "manaCost"
       ],
@@ -3330,8 +3330,8 @@
         "adjustedDuration",
         "stormInterval",
         "slowDuration",
-        "обморожениеШанс",
-        "обморожениеДлительность",
+        "frostbiteChance",
+        "frostbiteDuration",
         "cooldown",
         "manaCost"
       ]
@@ -3868,7 +3868,7 @@
         },
         {
           "text": "дальность",
-          "color": "диапазон"
+          "color": "$range"
         },
         {
           "text": " вокруг удара.",
